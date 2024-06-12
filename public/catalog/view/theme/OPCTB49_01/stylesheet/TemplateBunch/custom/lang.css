@@ -1,0 +1,68 @@
+
+#top-links > ul > li.account-nav.dropdown.header_user_info > ul > li.tblanguage.clearfix > div > div > form > label{
+    width: 100%;
+    font: 14px / 18px "Poppins",Helvetica, sans-serif;
+    color: #666;
+    text-align: center;
+}
+.language-picker {
+    margin: 20px;
+}
+
+.custom-select-wrapper {
+    position: relative;
+}
+
+#language-picker-select{
+    border-color: #bdbdbd;
+    /* background-color: none; */
+}
+.custom-select-wrapper select {
+    text-align: center;
+    font: 14px / 18px "Poppins",Helvetica, sans-serif;
+    color: #666;
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('catalog/language/en-gb/en-gb.png') no-repeat left 10px center/ 20px 20px;
+    background-position: left 10px center;
+    padding: 5px 10px 5px 30px; /* ajoutez de la marge à gauche pour l'image */
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #666;
+
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 175px;
+    cursor: pointer;
+}
+.custom-select-wrapper select:hover{
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: url('catalog/language/en-gb/en-gb.png') no-repeat left 10px center/ 20px 20px;
+    background-position: left 10px center;
+    padding: 5px 10px 5px 30px; /* ajoutez de la marge à gauche pour l'image */
+    font-size: 16px;
+    padding: 5px;
+    border: 1px solid #ccc;
+    background-color: #ffffff;
+    border-radius: 4px;
+    width: 175px;
+    cursor: pointer;
+}
+.custom-select-wrapper select[data-selected-image="fr"] {
+    background-image: url('../../../../../../language/fr-fr/fr-fr.png');
+}
+
+/* Ajouter des images pour d'autres langues ici */
+.custom-select-wrapper select[data-selected-image="en-gb"] {
+    background-image: url('../../../../../../language/en-gb/en-gb.png');
+}
+
+select option{
+    background-color: none;
+}
+select option:hove{
+    background-color: none;
+}

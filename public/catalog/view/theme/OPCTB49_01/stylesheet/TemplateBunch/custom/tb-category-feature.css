@@ -1,0 +1,156 @@
+/* TB-Category feature CSS Start */
+
+#TB-category-featured{
+	margin: 0 0 100px 0;
+}
+#TB-category-featured .tb-category-featured-carousel {
+	text-align: center;
+}
+#TB-category-featured .tb-category-featured-carousel .caption {
+	width: auto;
+	position: relative;
+	left: 0;
+	right: 0;
+	margin: 0 auto;
+	bottom: 0;
+	transition: all 400ms ease-in-out 0s;
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	z-index: 1;
+	overflow: hidden;
+}
+#TB-category-featured .tb-category-featured-carousel .item .caption .tb-content{
+	transition: all 400ms ease-in-out 0s;
+    -webkit-transition: all 400ms ease-in-out 0s;
+    -moz-transition: all 400ms ease-in-out 0s;
+    -o-transition: all 400ms ease-in-out 0s;
+    -ms-transition: all 400ms ease-in-out 0s;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .tb-sub-cat ul{
+	padding: 0;
+	display: none;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .tb-sub-cat ul li a {
+	background: none;
+	padding: 0;
+	border: none;
+	color: #111;
+	font: 500 14px/24px "Poppins", Helvetica, sans-serif;
+	transition: all 400ms ease-in-out 0s;
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	padding: 5px 0;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .tb-sub-cat ul li{
+	list-style: none;
+}
+#TB-category-featured .tbfcat-items .item:hover .caption {
+    height: 96%;
+}
+#TB-category-featured .tbfcat-items .content .tb_cat_content {
+    position: relative;
+    overflow: hidden;
+	display: inline-block;
+}
+#TB-category-featured .tbfcat-items .content .tb_cat_content .image {
+	overflow: hidden;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .cat-title h4{
+	margin: 0;
+}
+#TB-category-featured .tb-category-featured-title .TB-Commen-Heading h3{
+	margin: 0 0 40px 0;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .cat-title h4 a {
+	color: #111;
+	font: 400 20px/22px "Poppins", Helvetica, sans-serif;
+	letter-spacing: 1px;
+	margin: 0;
+	text-align: center;
+	padding: 15px 0;
+	transition: all 400ms ease-in-out 0s;
+	-webkit-transition: all 400ms ease-in-out 0s;
+	-moz-transition: all 400ms ease-in-out 0s;
+	-o-transition: all 400ms ease-in-out 0s;
+	-ms-transition: all 400ms ease-in-out 0s;
+	width: 100%;
+	display: block;
+	text-transform: capitalize;
+	background: #f7f7f7;
+}
+#TB-category-featured .tb-category-featured-carousel .item:hover .caption .cat-title h4 a{
+	color: #fff;
+	background: #ad084a;
+}
+#TB-category-featured .tb-category-featured-carousel .owl-item{
+	padding: 0 15px;
+}
+#TB-category-featured .tb-category-featured-carousel .owl-nav{
+	display: none !important;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .tb-sub-cat ul li.viewall .tb-view-all .categories{
+	display: inline-block;
+}
+#TB-category-featured .tb-category-featured-carousel .caption .tb-sub-cat ul li.viewall .tb-view-all .categories a {
+	margin: 15px 0 0 0;
+	font-size: 14px;
+	line-height: 16px;
+	padding: 14px 30px;
+	position: relative;
+	background: #111;
+	color: #fff;
+	font-weight: 600;
+}
+@media (max-width: 1299px) {
+	#TB-category-featured{
+		margin: 0 0 80px 0;
+	}
+}
+@media (max-width: 1199px) {
+	#TB-category-featured{
+		margin: 0 0 60px 0;
+	}
+	#TB-category-featured .tb-category-featured-title .TB-Commen-Heading h3 {
+		margin: 0 0 30px 0;
+	}
+}
+@media (max-width: 991px) {
+	#TB-category-featured{
+		margin: 0 0 40px 0;
+	}
+	#TB-category-featured .TB-Commen-Heading h3{
+		margin: 0;
+	}
+}
+@media (max-width: 767px) {
+	#TB-category-featured .tb-category-featured-carousel .caption .cat-title h4 a {
+		font-size: 18px;
+		line-height: 20px;
+	}
+	#TB-category-featured .tb-category-featured-carousel .caption{
+		height: 50px;
+	}
+	#TB-category-featured .tbfcat-items .content .tb_cat_content{
+		display: inline-block;
+		vertical-align: top;
+	}
+	#TB-category-featured .tb-category-featured-carousel .caption{
+		height: auto;
+	}
+	#TB-category-featured .tbfcat-items .item:hover .caption {
+		height: auto;
+	}
+	#TB-category-featured .tb-category-featured-carousel .item:hover .caption .tb-content {
+		padding: 0;
+	}
+}
+@media (max-width: 480px) {
+	#TB-category-featured{
+		margin: 0 0 20px 0;
+	}
+}
+/* TB-Category feature CSS End */

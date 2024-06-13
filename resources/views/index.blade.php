@@ -185,35 +185,35 @@
                                                                     <h4><strong>Mixed Fruit</strong></h4>
                                                                 </a>
                                                                 <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="index6f9f.html?route=product/category&amp;path=64_80"><h5>Exotic Jam </h5></a>
-                                                                    <a class="a-mega-third-link" href="indexc67e.html?route=product/category&amp;path=64_77"><h5>Flavor</h5></a>
-                                                                    <a class="a-mega-third-link" href="index10a2.html?route=product/category&amp;path=64_79"><h5>Lion Jam</h5></a>
-                                                                    <a class="a-mega-third-link" href="index5d6c.html?route=product/category&amp;path=64_93"><h5>Mantra </h5></a>
-                                                                    <a class="a-mega-third-link" href="index6d1b.html?route=product/category&amp;path=64_78"><h5>Orchard </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Exotic Jam </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Flavor</h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Lion Jam</h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Mantra </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Orchard </h5></a>
                                                                 </div>
                                                             </div>                                                                                                                                                                                                
                                                             <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="index4eb1.html?route=product/category&amp;path=65">
+                                                                <a class="a-mega-second-link" href="#">
                                                                     <h4><strong>Berryblast </strong></h4>
                                                                 </a>
                                                                 <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="indexee47.html?route=product/category&amp;path=65_83"><h5>Blast Jam</h5></a>
-                                                                    <a class="a-mega-third-link" href="index8df1.html?route=product/category&amp;path=65_84"><h5>Orange </h5></a>
-                                                                    <a class="a-mega-third-link" href="indexeeaf.html?route=product/category&amp;path=65_82"><h5>Jambo Jam </h5></a>
-                                                                    <a class="a-mega-third-link" href="index75e9.html?route=product/category&amp;path=65_91"><h5>Strwberry </h5></a>
-                                                                    <a class="a-mega-third-link" href="index1812.html?route=product/category&amp;path=65_81"><h5>Tropical</h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Blast Jam</h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Orange </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Jambo Jam </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Strwberry </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Tropical</h5></a>
                                                                 </div>
                                                             </div>                                                                                                                                                                                                            
                                                             <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="index78aa.html?route=product/category&amp;path=66">
+                                                                <a class="a-mega-second-link" href="#">
                                                                     <h4><strong>Pineapple</strong></h4>
                                                                 </a>
                                                                 <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="index223e.html?route=product/category&amp;path=66_89"><h5>Dalfour </h5></a>
-                                                                    <a class="a-mega-third-link" href="indexcd39.html?route=product/category&amp;path=66_85"><h5>Mala’s Jam </h5></a>
-                                                                    <a class="a-mega-third-link" href="indexe127.html?route=product/category&amp;path=66_88"><h5>Kissan </h5></a>
-                                                                    <a class="a-mega-third-link" href="indexccd2.html?route=product/category&amp;path=66_86"><h5>Preservatives</h5></a>
-                                                                    <a class="a-mega-third-link" href="index086f.html?route=product/category&amp;path=66_87"><h5>Splitz Jam</h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Dalfour </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Mala’s Jam </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Kissan </h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Preservatives</h5></a>
+                                                                    <a class="a-mega-third-link" href="#"><h5>Splitz Jam</h5></a>
                                                                 </div>
                                                             </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
                                                             <div class="col-sm-12 sub-item2-content" data-cols="12">
@@ -244,7 +244,7 @@
                                                     </li>
 
                                                     <li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="index6067.html?route=product/category&amp;path=60">
+                                                        <a class="a-top-link" href="#">
                                                             <span>Flavor </span>
                                                         </a>
                                                         <!-- Mega Menu -->
@@ -252,40 +252,40 @@
                                                         <div class="flyout-menu-container sub-menu-container">
                                                             <ul class="ul-second-items">
                                                                 <li class="li-second-items">
-                                                                    <a href="indexf684.html?route=product/category&amp;path=60_95" class="a-second-link a-item">
+                                                                    <a href="#" class="a-second-link a-item">
                                                                         <span class="a-second-title">Natureland</span>
                                                                     </a>
                                                                 </li>
                                                                 <li class="li-second-items">
-                                                                    <a href="index00a5.html?route=product/category&amp;path=60_96" class="a-second-link a-item">
+                                                                    <a href="#" class="a-second-link a-item">
                                                                         <span class="a-second-title">Organics</span>
                                                                     </a>
                                                                 </li>
                                                                 <li class="li-second-items">
-                                                                    <a href="indexcefd.html?route=product/category&amp;path=60_98" class="a-second-link a-item">
+                                                                    <a href="#" class="a-second-link a-item">
                                                                         <span class="a-second-title">Fruit butters</span>
                                                                         <i class="icofont-simple-right"></i>
                                                                     </a>
                                                                     <div class="flyout-third-items">
                                                                         <ul class="ul-third-items">
                                                                             <li class="li-third-items">
-                                                                                <a href="indexacee.html?route=product/category&amp;path=60_98_100" class="a-third-link">
+                                                                                <a href="#" class="a-third-link">
                                                                                     <span class="a-third-title">blueberry</span>
                                                                                 </a>
                                                                             </li>
                                                                             <li class="li-third-items">
-                                                                                <a href="indexf5b4.html?route=product/category&amp;path=60_98_99" class="a-third-link"><span class="a-third-title">Marmalade</span></a>
+                                                                                <a href="#" class="a-third-link"><span class="a-third-title">Marmalade</span></a>
                                                                             </li>
                                                                         </ul>
                                                                     </div>
                                                                 </li>
                                                                 <li class="li-second-items">
-                                                                    <a href="indexbf7b.html?route=product/category&amp;path=60_97" class="a-second-link a-item">
+                                                                    <a href="#" class="a-second-link a-item">
                                                                         <span class="a-second-title">Jelly</span>
                                                                     </a>
                                                                 </li>
                                                                 <li class="li-second-items">
-                                                                    <a href="indexedd1.html?route=product/category&amp;path=60_94" class="a-second-link a-item">
+                                                                    <a href="#" class="a-second-link a-item">
                                                                         <span class="a-second-title">Kissan</span>
                                                                     </a>
                                                                 </li>
@@ -301,7 +301,7 @@
                                                         </a>
                                                     </li>                        						
                     								<li class="li-top-item">
-                                                        <a class="a-top-link" href="indexfea3.html?route=information/tb_blog/blogs">
+                                                        <a class="a-top-link" href="#">
 						                                    <span data-hover="Blogs">Blogs</span>
 						                                </a>
                                                     </li>       
@@ -337,7 +337,7 @@
                                                     <a href="{{ route('login') }}"><i class="icofont-lock"></i> Login</a>
                                                 </li>
 							                    <li>
-                                                    <a href="indexe223.html?route=account/wishlist" id="wishlist-total" title="Wish List (0)"><i class="icofont-heart"></i> 
+                                                    <a href="#" id="wishlist-total" title="Wish List (0)"><i class="icofont-heart"></i> 
                                                         <span class="hidden-sm hidden-md">Wish List (0)</span>
                                                     </a>
                                                 </li>
@@ -554,22 +554,22 @@
                                     <div class="content">
                                         <div class="tb_cat_content">
                                             <div class="image">
-                                                <a href="index4eb1.html?route=product/category&amp;path=65">
+                                                <a href="#">
                                                     <img src="image/cache/catalog/demo/banners/categories-img-01-330x300.png" alt="Berryblast " title="Berryblast " class="img-responsive" />
                                                 </a>
                                             </div>
                                             <div class="caption">
                                                 <div class="tb-content">
                                                     <div class="cat-title">
-                                                        <h4><a href="index4eb1.html?route=product/category&amp;path=65">Berryblast </a></h4>
+                                                        <h4><a href="#">Berryblast </a></h4>
                                                     </div>
                                                     <div class="tb-sub-cat">
                                                         <ul>
-                                                        <li><a href="indexee47.html?route=product/category&amp;path=65_83" class="list-group-item">Blast Jam</a></li>	  
-                                                        <li><a href="indexeeaf.html?route=product/category&amp;path=65_82" class="list-group-item">Jambo Jam </a></li>	  
-                                                        <li><a href="index8df1.html?route=product/category&amp;path=65_84" class="list-group-item">Orange </a></li>	  
-                                                        <li><a href="index75e9.html?route=product/category&amp;path=65_91" class="list-group-item">Strwberry </a></li>	  
-                                                        <li><a href="index1812.html?route=product/category&amp;path=65_81" class="list-group-item">Tropical</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Blast Jam</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Jambo Jam </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Orange </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Strwberry </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Tropical</a></li>	  
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -581,22 +581,22 @@
                                     <div class="content">
                                         <div class="tb_cat_content">
                                             <div class="image">
-                                                <a href="index2b30.html?route=product/category&amp;path=64">
+                                                <a href="#">
                                                     <img src="image/cache/catalog/demo/banners/categories-img-02-330x300.png" alt="Mixed Fruit" title="Mixed Fruit" class="img-responsive" />
                                                 </a>
                                             </div>
                                             <div class="caption">
                                                 <div class="tb-content">
                                                     <div class="cat-title">
-                                                        <h4><a href="index2b30.html?route=product/category&amp;path=64">Mixed Fruit</a></h4>
+                                                        <h4><a href="#">Mixed Fruit</a></h4>
                                                     </div>
                                                     <div class="tb-sub-cat">
                                                         <ul>
-                                                        <li><a href="index6f9f.html?route=product/category&amp;path=64_80" class="list-group-item">Exotic Jam </a></li>	  
-                                                        <li><a href="indexc67e.html?route=product/category&amp;path=64_77" class="list-group-item">Flavor</a></li>	  
-                                                        <li><a href="index10a2.html?route=product/category&amp;path=64_79" class="list-group-item">Lion Jam</a></li>	  
-                                                        <li><a href="index5d6c.html?route=product/category&amp;path=64_93" class="list-group-item">Mantra </a></li>	  
-                                                        <li><a href="index6d1b.html?route=product/category&amp;path=64_78" class="list-group-item">Orchard </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Exotic Jam </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Flavor</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Lion Jam</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Mantra </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Orchard </a></li>	  
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -608,22 +608,22 @@
                                     <div class="content">
                                         <div class="tb_cat_content">
                                             <div class="image">
-                                                <a href="index0854.html?route=product/category&amp;path=62">
+                                                <a href="#">
                                                     <img src="image/cache/catalog/demo/banners/categories-img-05-330x300.png" alt="Orange Jam" title="Orange Jam" class="img-responsive" />
                                                 </a>
                                             </div>
                                             <div class="caption">
                                                 <div class="tb-content">
                                                     <div class="cat-title">
-                                                        <h4><a href="index0854.html?route=product/category&amp;path=62">Orange Jam</a></h4>
+                                                        <h4><a href="#">Orange Jam</a></h4>
                                                     </div>
                                                     <div class="tb-sub-cat">
                                                         <ul>
-                                                        <li><a href="indexa09b.html?route=product/category&amp;path=62_71" class="list-group-item">Blackberry</a></li>	  
-                                                        <li><a href="indexbf9e.html?route=product/category&amp;path=62_69" class="list-group-item">Marmalade</a></li>	  
-                                                        <li><a href="index66ab.html?route=product/category&amp;path=62_70" class="list-group-item">Rasberry </a></li>	  
-                                                        <li><a href="index6180.html?route=product/category&amp;path=62_92" class="list-group-item">Seville</a></li>	  
-                                                        <li><a href="index9b82.html?route=product/category&amp;path=62_67" class="list-group-item">Margaret</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Blackberry</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Marmalade</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Rasberry </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Seville</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Margaret</a></li>	  
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -635,22 +635,22 @@
                                     <div class="content">
                                         <div class="tb_cat_content">
                                             <div class="image">
-                                                <a href="indexcd29.html?route=product/category&amp;path=63">
+                                                <a href="#">
                                                     <img src="image/cache/catalog/demo/banners/categories-img-04-330x300.png" alt="Mango Jam" title="Mango Jam" class="img-responsive" />
                                                 </a>
                                             </div>
                                             <div class="caption">
                                                 <div class="tb-content">
                                                     <div class="cat-title">
-                                                        <h4><a href="indexcd29.html?route=product/category&amp;path=63">Mango Jam</a></h4>
+                                                        <h4><a href="#">Mango Jam</a></h4>
                                                     </div>
                                                     <div class="tb-sub-cat">
                                                         <ul>
-                                                        <li><a href="index9ff0.html?route=product/category&amp;path=63_75" class="list-group-item">Abusamaka</a></li>	  
-                                                        <li><a href="indexad06.html?route=product/category&amp;path=63_76" class="list-group-item">Ambika</a></li>	  
-                                                        <li><a href="indexd710.html?route=product/category&amp;path=63_74" class="list-group-item">Chausa</a></li>	  
-                                                        <li><a href="index2936.html?route=product/category&amp;path=63_90" class="list-group-item">Magloba</a></li>	  
-                                                        <li><a href="indexb527.html?route=product/category&amp;path=63_68" class="list-group-item">GulbAltour</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Abusamaka</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Ambika</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Chausa</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Magloba</a></li>	  
+                                                        <li><a href="#" class="list-group-item">GulbAltour</a></li>	  
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -662,22 +662,22 @@
                                     <div class="content">
                                         <div class="tb_cat_content">
                                             <div class="image">
-                                                <a href="index78aa.html?route=product/category&amp;path=66">
+                                                <a href="#">
                                                     <img src="image/cache/catalog/demo/banners/categories-img-03-330x300.png" alt="Pineapple" title="Pineapple" class="img-responsive" />
                                                 </a>
                                             </div>
                                             <div class="caption">
                                                 <div class="tb-content">
                                                     <div class="cat-title">
-                                                        <h4><a href="index78aa.html?route=product/category&amp;path=66">Pineapple</a></h4>
+                                                        <h4><a href="#">Pineapple</a></h4>
                                                     </div>
                                                     <div class="tb-sub-cat">
                                                         <ul>
-                                                        <li><a href="index223e.html?route=product/category&amp;path=66_89" class="list-group-item">Dalfour </a></li>	  
-                                                        <li><a href="indexe127.html?route=product/category&amp;path=66_88" class="list-group-item">Kissan </a></li>	  
-                                                        <li><a href="indexcd39.html?route=product/category&amp;path=66_85" class="list-group-item">Mala’s Jam </a></li>	  
-                                                        <li><a href="indexccd2.html?route=product/category&amp;path=66_86" class="list-group-item">Preservatives</a></li>	  
-                                                        <li><a href="index086f.html?route=product/category&amp;path=66_87" class="list-group-item">Splitz Jam</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Dalfour </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Kissan </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Mala’s Jam </a></li>	  
+                                                        <li><a href="#" class="list-group-item">Preservatives</a></li>	  
+                                                        <li><a href="#" class="list-group-item">Splitz Jam</a></li>	  
                                                         </ul>
                                                     </div>
                                                 </div>
@@ -765,7 +765,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexd21c.html?route=product/product&amp;product_id=47">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/03-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
 						</a>
@@ -793,7 +793,8 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexd21c.html?route=product/product&amp;product_id=47')"><i class="icofont-eye-alt"></i>
+						<!-- Quick View -->
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -801,7 +802,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexd21c.html?route=product/product&amp;product_id=47">Bhuira Strawberry Jam</a></h4>
+								<h4><a href="#">Bhuira Strawberry Jam</a></h4>
 														<div class="price">  <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>                           
 								</div>
 								
@@ -816,7 +817,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index9144.html?route=product/product&amp;product_id=40">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/06-330x432.jpg" title="Hero Black Currant Jam" alt="Hero Black Currant Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/06-02-330x432.jpg" title="Hero Black Currant Jam" alt="Hero Black Currant Jam" />
 						</a>
@@ -839,7 +840,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index9144.html?route=product/product&amp;product_id=40')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -847,7 +848,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index9144.html?route=product/product&amp;product_id=40">Hero Black Currant Jam</a></h4>
+								<h4><a href="#">Hero Black Currant Jam</a></h4>
 														<div class="price">                           $123.20
 															
 								</div>
@@ -863,7 +864,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexf073.html?route=product/product&amp;product_id=30">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/02-330x432.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/02-02-330x432.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" />
 						</a>
@@ -891,7 +892,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexf073.html?route=product/product&amp;product_id=30')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -899,7 +900,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexf073.html?route=product/product&amp;product_id=30">Jam - Mango 1 kg Jar</a></h4>
+								<h4><a href="#">Jam - Mango 1 kg Jar</a></h4>
 														<div class="price">  <span class="price-new">$98.00</span> <span class="price-old">$122.00</span>                           
 								</div>
 								
@@ -914,7 +915,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index5e0b.html?route=product/product&amp;product_id=36">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/08-330x432.jpg" title="Kissan Mango Jam" alt="Kissan Mango Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/08-02-330x432.jpg" title="Kissan Mango Jam" alt="Kissan Mango Jam" />
 						</a>
@@ -937,7 +938,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index5e0b.html?route=product/product&amp;product_id=36')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -945,7 +946,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index5e0b.html?route=product/product&amp;product_id=36">Kissan Mango Jam</a></h4>
+								<h4><a href="#">Kissan Mango Jam</a></h4>
 														<div class="price">                           $122.00
 															
 								</div>
@@ -961,7 +962,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexbb02.html?route=product/product&amp;product_id=42">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/01-330x432.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/01-02-330x432.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" />
 						</a>
@@ -990,7 +991,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexbb02.html?route=product/product&amp;product_id=42')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -998,7 +999,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexbb02.html?route=product/product&amp;product_id=42">Kissan Pineapple Jam</a></h4>
+								<h4><a href="#">Kissan Pineapple Jam</a></h4>
 														<div class="price">  <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>                           
 								</div>
 								
@@ -1018,7 +1019,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index6320.html?route=product/product&amp;product_id=28">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/04-330x432.jpg" title="Morello Cherry Extra Jam" alt="Morello Cherry Extra Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/04-02-330x432.jpg" title="Morello Cherry Extra Jam" alt="Morello Cherry Extra Jam" />
 						</a>
@@ -1042,7 +1043,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index6320.html?route=product/product&amp;product_id=28')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1050,7 +1051,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index6320.html?route=product/product&amp;product_id=28">Morello Cherry Extra Jam</a></h4>
+								<h4><a href="#">Morello Cherry Extra Jam</a></h4>
 														<div class="price">                           $122.00
 															
 								</div>
@@ -1066,7 +1067,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexb8ca.html?route=product/product&amp;product_id=43">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/11-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/11-02-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
 						</a>
@@ -1089,7 +1090,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexb8ca.html?route=product/product&amp;product_id=43')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1097,7 +1098,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexb8ca.html?route=product/product&amp;product_id=43">Natural Jam Bitter Orange</a></h4>
+								<h4><a href="#">Natural Jam Bitter Orange</a></h4>
 														<div class="price">                           $602.00
 															
 								</div>
@@ -1113,7 +1114,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index531d.html?route=product/product&amp;product_id=45">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/13-330x432.jpg" title="Orange Marmalade Jam" alt="Orange Marmalade Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/13-02-330x432.jpg" title="Orange Marmalade Jam" alt="Orange Marmalade Jam" />
 						</a>
@@ -1136,7 +1137,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index531d.html?route=product/product&amp;product_id=45')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1144,7 +1145,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index531d.html?route=product/product&amp;product_id=45">Orange Marmalade Jam</a></h4>
+								<h4><a href="#">Orange Marmalade Jam</a></h4>
 														<div class="price">                           $2,000.00
 															
 								</div>
@@ -1160,7 +1161,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index0f47.html?route=product/product&amp;product_id=29">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/15-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/15-02-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
 						</a>
@@ -1183,7 +1184,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index0f47.html?route=product/product&amp;product_id=29')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1191,7 +1192,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index0f47.html?route=product/product&amp;product_id=29">Organics Pineapple Jam</a></h4>
+								<h4><a href="#">Organics Pineapple Jam</a></h4>
 														<div class="price">                           $337.99
 															
 								</div>
@@ -1207,7 +1208,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index2ebe.html?route=product/product&amp;product_id=46">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/19-330x432.jpg" title="Pineapple Jam Preservatives" alt="Pineapple Jam Preservatives" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/19-02-330x432.jpg" title="Pineapple Jam Preservatives" alt="Pineapple Jam Preservatives" />
 						</a>
@@ -1230,7 +1231,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index2ebe.html?route=product/product&amp;product_id=46')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1238,7 +1239,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index2ebe.html?route=product/product&amp;product_id=46">Pineapple Jam Preservatives</a></h4>
+								<h4><a href="#">Pineapple Jam Preservatives</a></h4>
 														<div class="price">                           $1,202.00
 															
 								</div>
@@ -1259,7 +1260,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexd21c.html?route=product/product&amp;product_id=47">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/03-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
 						</a>
@@ -1287,7 +1288,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexd21c.html?route=product/product&amp;product_id=47')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1295,7 +1296,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexd21c.html?route=product/product&amp;product_id=47">Bhuira Strawberry Jam</a></h4>
+								<h4><a href="#">Bhuira Strawberry Jam</a></h4>
 														<div class="price">  <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>                           
 								</div>
 								
@@ -1310,7 +1311,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="index6a4d.html?route=product/product&amp;product_id=33">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/18-330x432.jpg" title="Kraft Strawberry Jam" alt="Kraft Strawberry Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/18-02-330x432.jpg" title="Kraft Strawberry Jam" alt="Kraft Strawberry Jam" />
 						</a>
@@ -1333,7 +1334,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index6a4d.html?route=product/product&amp;product_id=33')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1341,7 +1342,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="index6a4d.html?route=product/product&amp;product_id=33">Kraft Strawberry Jam</a></h4>
+								<h4><a href="#">Kraft Strawberry Jam</a></h4>
 														<div class="price">                           $242.00
 															
 								</div>
@@ -1357,7 +1358,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexbfcf.html?route=product/product&amp;product_id=31">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/14-330x432.jpg" title="Mantra Organic Mango Jam" alt="Mantra Organic Mango Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/14-02-330x432.jpg" title="Mantra Organic Mango Jam" alt="Mantra Organic Mango Jam" />
 						</a>
@@ -1380,7 +1381,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexbfcf.html?route=product/product&amp;product_id=31')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1388,7 +1389,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexbfcf.html?route=product/product&amp;product_id=31">Mantra Organic Mango Jam</a></h4>
+								<h4><a href="#">Mantra Organic Mango Jam</a></h4>
 														<div class="price">                           $98.00
 															
 								</div>
@@ -1404,7 +1405,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexb8ca.html?route=product/product&amp;product_id=43">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/11-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/11-02-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
 						</a>
@@ -1427,7 +1428,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexb8ca.html?route=product/product&amp;product_id=43')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1435,7 +1436,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexb8ca.html?route=product/product&amp;product_id=43">Natural Jam Bitter Orange</a></h4>
+								<h4><a href="#">Natural Jam Bitter Orange</a></h4>
 														<div class="price">                           $602.00
 															
 								</div>
@@ -1451,7 +1452,7 @@
 			<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">
-									<a href="indexc21e.html?route=product/product&amp;product_id=34">
+									<a href="#">
 						<img class="image_thumb" src="image/cache/catalog/demo/product/09-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
 						<img class="image_thumb_swap" src="image/cache/catalog/demo/product/09-02-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
 						</a>
@@ -1474,7 +1475,7 @@
 							<span title="Add to compare">Add to compare</span>
 							<span class="loading"><i class="icofont-refresh"></i></span>
 							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexc21e.html?route=product/product&amp;product_id=34')"><i class="icofont-eye-alt"></i>
+						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 						<span title="Quick view">Quick view</span>
 						<span class="loading"><i class="icofont-refresh"></i></span>
 						</button>
@@ -1482,7 +1483,7 @@
 					</div>
 					<div class="thumb-description">
 							<div class="caption">
-								<h4><a href="indexc21e.html?route=product/product&amp;product_id=34">Organics Pineapple Jam</a></h4>
+								<h4><a href="#">Organics Pineapple Jam</a></h4>
 														<div class="price">                           $122.00
 															
 								</div>

@@ -95,7 +95,7 @@
                                                 <ul class="ul-top-items">
                                                     <li class="li-top-item mega-menu">
                                                         <a class="a-top-link" href="{{ route('app.index') }}">
-                                                        <span data-key="header.home">Home</span>
+                                                        <span data-key="header.home">Acceuil</span>
                                                         </a>
                                                         <!-- Mega Menu -->        
                                                         <div class="mega-menu-container sub-menu-container ">                                                                                                                                                                                                                                                        
@@ -113,7 +113,7 @@
                                                                                 </a>
                                                                             </div>
                                                                         </div>
-                                                                        <div class="column layout-4">
+                                                                        <!-- <div class="column layout-4">
                                                                             <div class="menu-title">
                                                                                 <a href="#">coming soon</a>
                                                                             </div>
@@ -122,7 +122,7 @@
                                                                                     <img src="image/catalog/demo/banners/demo-02.jpg" alt="image">
                                                                                 </a>
                                                                             </div>
-                                                                        </div>
+                                                                        </div> -->
 
                                                                         </div>
                                                                     </p>
@@ -131,107 +131,84 @@
                                                         </div>
                                                                                                                         
                                                         <!-- Flyout Menu -->
-                                                    </li>                                                    
-                        						
-                                                    <li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="index73b3.php?route=product/category&amp;path=59">
-                                                            <span>Jam</span>
-                                                        </a>
-                                                        <!-- Mega Menu -->                                                                                                                
-                                                        <div class="mega-menu-container sub-menu-container ">
-                                                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="#">
-                                                                    <h4><strong>Orange Jam</strong></h4>
-                                                                </a>
-                                                                <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="#"><h5>Blackberry</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Marmalade</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Rasberry </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Seville</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Margaret</h5></a>
-                                                                </div>
-                                                            </div>                                                                                                                                                                                                            
-                                                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="indexcd29.html?route=product/category&amp;path=63">
-                                                                    <h4><strong>Mango Jam</strong></h4>
-                                                                </a>
-                                                                <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="#"><h5>Ambika</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Abusamaka</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Chausa</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Magloba</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>GulbAltour</h5></a>
-                                                                </div>
-                                                            </div>                                                                                                                                                                                                            
-                                                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="#">
-                                                                    <h4><strong>Mixed Fruit</strong></h4>
-                                                                </a>
-                                                                <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="#"><h5>Exotic Jam </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Flavor</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Lion Jam</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Mantra </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Orchard </h5></a>
-                                                                </div>
-                                                            </div>                                                                                                                                                                                                
-                                                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="index4eb1.html?route=product/category&amp;path=65">
-                                                                    <h4><strong>Berryblast </strong></h4>
-                                                                </a>
-                                                                <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="#"><h5>Blast Jam</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Orange </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Jambo Jam </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Strwberry </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Tropical</h5></a>
-                                                                </div>
-                                                            </div>                                                                                                                                                                                                            
-                                                            <div class="col-sm-2 sub-item2-content" data-cols="2">
-                                                                <a class="a-mega-second-link" href="#">
-                                                                    <h4><strong>Pineapple</strong></h4>
-                                                                </a>
-                                                                <div class="sub_item3-content">
-                                                                    <a class="a-mega-third-link" href="#"><h5>Dalfour </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Mala’s Jam </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Kissan </h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Preservatives</h5></a>
-                                                                    <a class="a-mega-third-link" href="#"><h5>Splitz Jam</h5></a>
-                                                                </div>
-                                                            </div>                                                                                                                                                                                                                                                                                                                                                                                                                                                                                        
-                                                            <div class="col-sm-12 sub-item2-content" data-cols="12">
-                                                                <h4><strong>Menubanner</strong></h4>
-                                                                <p>
-                                                                    <div class="menu-banner">
-                                                                        <a href="#URL">
-                                                                            <img src="image/catalog/demo/banners/menu-banner.jpg" alt="menu-banner">
-                                                                        </a>
-                                                                    </div>
-                                                                </p>
-                                                            </div>                                                                    
-                                                        </div>                                                                                                                        
-                                                        
-                                                        <!-- Flyout Menu -->
-                                                    </li>
-                                                    
-                                                    <li class="li-top-item ">
-                                                        <a class="a-top-link" href="{{ route('products.index') }}">
-                                                            <span>Products</span>
-                                                        </a>
                                                     </li>
 
-                                                    <li class="li-top-item ">
-                                                        <a class="a-top-link" href="{{ route('category.index') }}">
-                                                            <span>Category</span>
-                                                        </a>
-                                                    </li>
-
-                                                    <li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="#">
-                                                            <span>Flavor </span>
+													<li class="li-top-item mega-menu">
+                                                        <a class="a-top-link" href="{{ route('society.index') }}">
+                                                            <span>Notre Societé </span>
                                                         </a>
                                                         <!-- Mega Menu -->
                                                         <!-- Flyout Menu -->                            
+                                                        <div class="flyout-menu-container sub-menu-container">
+                                                            <ul class="ul-second-items">
+                                                                <li class="li-second-items">
+                                                                    <a href="#" class="a-second-link a-item">
+                                                                        <span class="a-second-title">Historique</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="li-second-items">
+                                                                    <a href="#" class="a-second-link a-item">
+                                                                        <span class="a-second-title">Notre dynamique</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+													
+													<li class="li-top-item mega-menu">
+                                                        <a class="a-top-link" href="{{ route('quality.index') }}">
+                                                            <span>Qualité </span>
+                                                        </a>
+                                                        <!-- Mega Menu -->
+                                                        <!-- Flyout Menu -->                            
+                                                        <div class="flyout-menu-container sub-menu-container">
+                                                            <ul class="ul-second-items">
+                                                                <li class="li-second-items">
+                                                                    <a href="#" class="a-second-link a-item">
+                                                                        <span class="a-second-title">Qualité</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="li-second-items">
+                                                                    <a href="#" class="a-second-link a-item">
+                                                                        <span class="a-second-title">HACCP</span>
+                                                                    </a>
+                                                                </li>
+                                                                <li class="li-second-items">
+                                                                    <a href="#" class="a-second-link a-item">
+                                                                        <span class="a-second-title">Certifications</span>                                                                        
+                                                                    </a>
+                                                                </li>
+                                                                <li class="li-second-items">
+                                                                    <a href="#" class="a-second-link a-item">
+                                                                        <span class="a-second-title">RSE</span>
+                                                                    </a>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
+                                                    </li>
+                                                    
+                                                    <li class="li-top-item ">
+                                                        <a class="a-top-link" href="{{ route('jam.index') }}">
+                                                            <span data-key="header.jam">confiture</span>
+                                                        </a>
+                                                    </li>
+                                                    <!-- <li class="li-top-item ">
+                                                        <a class="a-top-link" href="{{ route('products.index') }}">
+                                                            <span data-key="header.products">Products</span>
+                                                        </a>
+                                                    </li> -->
+
+                                                    <!-- <li class="li-top-item ">
+                                                        <a class="a-top-link" href="{{ route('category.index') }}">
+                                                            <span>Category</span>
+                                                        </a>
+                                                    </li> -->
+
+                                                    <!-- <li class="li-top-item mega-menu">
+                                                        <a class="a-top-link" href="#">
+                                                            <span>Flavor </span>
+                                                        </a>
+                                                                                    
                                                         <div class="flyout-menu-container sub-menu-container">
                                                             <ul class="ul-second-items">
                                                                 <li class="li-second-items">
@@ -274,20 +251,20 @@
                                                                 </li>
                                                             </ul>
                                                         </div>
-                                                    </li>
+                                                    </li> -->
                         						
                                                                             						
                                                                             						
+													<li class="li-top-item">
+														<a class="a-top-link" href="{{ route('blog.index') }}">
+															<span data-hover="Blogs">Blogs</span>
+														</a>
+													</li>       
                                                     <li class="li-top-item ">
                                                         <a class="a-top-link" href="{{ route('contact.index') }}">
-                                                            <span>Contact us</span>
+                                                            <span>Contact</span>
                                                         </a>
                                                     </li>                        						
-                    								<li class="li-top-item">
-                                                        <a class="a-top-link" href="#">
-						                                    <span data-hover="Blogs">Blogs</span>
-						                                </a>
-                                                    </li>       
 					                            </ul>
                     	                    </div>
 		                                </div>
@@ -336,8 +313,8 @@
                                                                 <label for="language-picker-select">Select your language</label>
                                                                 <div class="custom-select-wrapper">
                                                                     <select name="language-picker-select" id="language-picker-select" >
-                                                                        <option lang="en" value="en-gb" data-image="catalog/language/en-gb/en-gb.png"selected>English</option>
-                                                                        <option lang="fr" value="fr-fr" data-image="catalog/language/fr-fr/fr.svg" >Français</option>
+                                                                        <option lang="fr" value="fr-fr" data-image="catalog/language/fr-fr/fr-fr.png" selected data-key="header.selectfr">French</option>
+                                                                        <option lang="en" value="en-gb" data-image="catalog/language/en-gb/en-gb.png" data-key="header.selecten">English</option>
                                                                         <!-- Ajoutez d'autres options de langue ici si nécessaire -->
                                                                     </select>
                                                                 </div>

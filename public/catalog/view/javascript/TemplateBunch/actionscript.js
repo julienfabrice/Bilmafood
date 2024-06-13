@@ -1,7 +1,7 @@
 $(document).ready(function() {
 
 /* ---------------- start TemplateBunch link more menu ----------------------*/
-    var max_link = 5;
+    var max_link = 4;
     const moreText = translations['en-gb']['more_text'];
     var items = $('.main-category-list .tb-menu > ul.ul-top-items > li.li-top-item');
     var surplus = items.slice(max_link, items.length);

@@ -1277,84 +1277,57 @@
 			<div class="TB-Commen-Heading">
 				<h3>Special Products</h3>
 			</div>
-			<div class="tb-special-products">         <div class="product-layouts">
-				<div class="product-thumb transition">
-					<div class="image">  <a href="indexd21c.html?route=product/product&amp;product_id=47"> <img class="image_thumb" src="image/cache/catalog/demo/product/03-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" /> <img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" /> </a>                             <div class="sale-icon">Sale</div>
-					<span class="percent">-10%</span>               
-												<div class="product-countdown">
-						<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
-					</div>
-					
-							
-						<div class="button-group">
-							<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('47')">
-					
-						<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-								</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-						<button class="btn-wishlist" title="Add to Wish List"  onclick="wishlist.add('47');"><i class="icofont-heart"></i>
-							<span title="Add to Wish List">Add to Wish List</span>
-							<span class="loading"><i class="icofont-refresh"></i></span>
-							</button>
-						<button class="btn-compare" title="Add to compare"  onclick="compare.add('47');"><i class="icofont-signal"></i>
-							<span title="Add to compare">Add to compare</span>
-							<span class="loading"><i class="icofont-refresh"></i></span>
-							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexd21c.html?route=product/product&amp;product_id=47')"><i class="icofont-eye-alt"></i>
-						<span title="Quick view">Quick view</span>
-						<span class="loading"><i class="icofont-refresh"></i></span>
-						</button>
+				<div class="tb-special-products">
+				@foreach ($products as $product)         
+					<div class="product-layouts">
+						<div class="product-thumb transition">
+							<div class="image">  
+								<a href="indexd21c.html?route=product/product&amp;product_id=47"> 
+									<img class="image_thumb" src="{{ Storage::url($product->main_image) }}" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" /> 
+									<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" /> 
+								</a>                             
+								<!-- <div class="sale-icon">Sale</div>
+								<span class="percent">-10%</span>                -->
+								<!-- <div class="product-countdown">
+									<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
+								</div> -->
+								<div class="button-group">
+									<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('47')">
+										<i class="icofont-shopping-cart"></i>
+										<span class="hidden-xs hidden-sm hidden-md">
+											Add to Cart
+										</span>
+										<span class="loading">
+											<i class="icofont-refresh"></i>
+										</span>
+									</button>
+									<button class="btn-wishlist" title="Add to Wish List"  onclick="wishlist.add('47');"><i class="icofont-heart"></i>
+										<span title="Add to Wish List">Add to Wish List</span>
+										<span class="loading"><i class="icofont-refresh"></i></span>
+									</button>
+									<button class="btn-compare" title="Add to compare"  onclick="compare.add('47');"><i class="icofont-signal"></i>
+										<span title="Add to compare">Add to compare</span>
+										<span class="loading"><i class="icofont-refresh"></i></span>
+									</button>
+									<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexd21c.html?route=product/product&amp;product_id=47')"><i class="icofont-eye-alt"></i>
+										<span title="Quick view">Quick view</span>
+										<span class="loading"><i class="icofont-refresh"></i></span>
+									</button>
+								</div>
+							</div>
+							<div class="thumb-description">
+								<div class="caption">
+									<h4><a href="#">{{ $product->name }}</a></h4>					
+									<div class="price">  
+										<span class="price-new">{{ $product->price }}</span> 
+										<!-- <span class="price-old">$122.00</span>   -->
+										<span class="price-tax">Ex Tax: $90.00</span>  
+									</div>											
+								</div>
+							</div>
 						</div>
-				</div>
-					<div class="thumb-description">
-					<div class="caption">
-						<h4><a href="indexd21c.html?route=product/product&amp;product_id=47">Bhuira Strawberry Jam</a></h4>
-					
-										<div class="price">  <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>  
-						<span class="price-tax">Ex Tax: $90.00</span>  </div>
-											
-		</div>
 					</div>
-				</div>
-				</div>
-						<div class="product-layouts">
-				<div class="product-thumb transition">
-					<div class="image">  <a href="indexf073.html?route=product/product&amp;product_id=30"> <img class="image_thumb" src="image/cache/catalog/demo/product/02-330x432.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" /> <img class="image_thumb_swap" src="image/cache/catalog/demo/product/02-02-330x432.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" /> </a>                             <div class="sale-icon">Sale</div>
-					<span class="percent">-20%</span>               
-												<div class="product-countdown">
-						<div id="countdown4_30" class="item-countdown" data-date="2024-12-31"></div>
-					</div>
-					
-							
-						<div class="button-group">
-							<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('30')">
-					
-						<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-								</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-						<button class="btn-wishlist" title="Add to Wish List"  onclick="wishlist.add('30');"><i class="icofont-heart"></i>
-							<span title="Add to Wish List">Add to Wish List</span>
-							<span class="loading"><i class="icofont-refresh"></i></span>
-							</button>
-						<button class="btn-compare" title="Add to compare"  onclick="compare.add('30');"><i class="icofont-signal"></i>
-							<span title="Add to compare">Add to compare</span>
-							<span class="loading"><i class="icofont-refresh"></i></span>
-							</button>
-						<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexf073.html?route=product/product&amp;product_id=30')"><i class="icofont-eye-alt"></i>
-						<span title="Quick view">Quick view</span>
-						<span class="loading"><i class="icofont-refresh"></i></span>
-						</button>
-						</div>
-				</div>
-					<div class="thumb-description">
-					<div class="caption">
-						<h4><a href="indexf073.html?route=product/product&amp;product_id=30">Jam - Mango 1 kg Jar</a></h4>
-					
-										<div class="price">  <span class="price-new">$98.00</span> <span class="price-old">$122.00</span>  
-						<span class="price-tax">Ex Tax: $80.00</span>  </div>
-											
-		</div>
-					</div>
-				</div>
-				</div>
+				@endforeach
 						<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">  <a href="index5adf.html?route=product/product&amp;product_id=53"> <img class="image_thumb" src="image/cache/catalog/demo/product/20-330x432.jpg" title="Kaccha Aam Tangy Jam" alt="Kaccha Aam Tangy Jam" /> <img class="image_thumb_swap" src="image/cache/catalog/demo/product/20-02-330x432.jpg" title="Kaccha Aam Tangy Jam" alt="Kaccha Aam Tangy Jam" /> </a>                             <div class="sale-icon">Sale</div>

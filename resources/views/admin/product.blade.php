@@ -218,14 +218,30 @@
                         <thead>
                             <tr>
                                 <th>Photo</th>
-                                <th>Ref.</th>
-                                <th>Designation</th>
+                                <th>Name</th>
+                                <th>Description</th>
                                 <th>Prix (XAF)</th>
                                 <th class="text-end">Actions</th>
                             </tr>
                         </thead>
                         <tbody>
+                            @foreach ($products as $product)
+                                <tr style="overflow-x:scroll">
+                                    <td><img src="{{ Storage::url($product->main_image) }}" width="50"></td>
+                                    <td>{{ $product->name }}</td>
+                                    <!-- <td>{{ $product->description }}</td> -->
+                                    <td>{{ $product->price }}</td>
+                                    <td>
+                                        <a href="{{ route('admin.editproduct', $product) }}" class="btn btn-warning">Edit</a>
+                                        <form action="{{ route('admin.destroyproduct', $product) }}" method="POST" style="display:inline-block;">
+                                            @csrf
+                                            @method('DELETE')
+                                            <button type="submit" class="btn btn-danger">Delete</button>
+                                        </form>
+                                    </td>
+                                </tr>
 
+                            @endforeach
                              <!-- </?php
                                 if ($result->num_rows > 0) {
                                     while($row = $result->fetch_assoc()) {
@@ -261,18 +277,18 @@
 <!-- ./ layout-wrapper -->
 
 <!-- JQuery -->
-<script src="assets/libs/jquery-3.7.1.min.js"></script>
+<script src="{{ asset('assets/libs/jquery-3.7.1.min.js') }}"></script>
 
 <!-- Nicescroll -->
-<script src="assets/libs/nicescroll.js"></script>
+<script src="{{ asset('assets/libs/nicescroll.js') }}"></script>
 
 <!-- Range slider -->
-<script src="assets/libs/range-slider/js/ion.rangeSlider.min.js"></script>
+<script src="{{ asset('assets/libs/range-slider/js/ion.rangeSlider.min.js') }}"></script>
 
 <!-- Examples -->
-<script src="assets/js/examples/products.js"></script>
+<script src="{{ asset('assets/js/examples/products.js') }}"></script>
 
 <!-- Main Javascript file -->
-<script src="assets/js/app.js"></script>
+<script src="{{ asset('assets/js/app.js') }}"></script>
 </body>
 </html>

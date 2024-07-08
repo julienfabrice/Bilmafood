@@ -13,13 +13,23 @@ return new class extends Migration
     {
         Schema::create('personal_access_tokens', function (Blueprint $table) {
             $table->id();
-            $table->morphs('tokenable');
+            $table->unsignedBigInteger('tokenable_id');
+            $table->string('tokenable_type', 50);
             $table->string('name');
             $table->string('token', 64)->unique();
             $table->text('abilities')->nullable();
             $table->timestamp('last_used_at')->nullable();
             $table->timestamp('expires_at')->nullable();
             $table->timestamps();
+
+            // Ajouter un index composite sur tokenable_type et tokenable_id
+            $table->index(['tokenable_type', 'tokenable_id'], 'personal_access_tokens_index');
+
+            // Ajouter une clé étrangère vers la table du modèle associé
+            $table->foreign('tokenable_id')
+                ->references('id')
+                ->on((new \App\Models\User())->getTable())
+                ->onDelete('cascade');
         });
     }
 
@@ -31,3 +41,5 @@ return new class extends Migration
         Schema::dropIfExists('personal_access_tokens');
     }
 };
+
+

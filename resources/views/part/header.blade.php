@@ -251,20 +251,73 @@
                                                 </li>
 											</ul>
 					                    </li>
-					                    <li class="tbcart">
-                                            <div id="cart" class="btn-group">
-                                                <button type="button" data-toggle="dropdown" data-loading-text="Loading..." class="btn btn-inverse btn-block btn-lg dropdown-toggle">
-                                                    <i class="icofont-shopping-cart"></i>
-                                                    <span id="cart-total">0</span>
-                                                    <span class="cart-heading">Cart</span>
-                                                </button>
-                                                <ul class="dropdown-menu pull-right header-cart-toggle">
-                                                    <li>
-                                                        <p class="text-center">Your shopping cart is empty!</p>
-                                                    </li>
-                                                </ul>
-                                            </div>
-                                        </li>
+					                    @if (count(Session::get('cart', [])) > 0)
+                                            <li class="tbcart">
+                                                <div id="cart" class="btn-group">
+                                                    <button type="button" data-toggle="dropdown" data-loading-text="Loading..."
+                                                            class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+                                                        <i class="icofont-shopping-cart"></i>
+                                                        <span id="cart-total">{{ count(Session::get('cart')) }}</span>
+                                                        <span class="cart-heading">Cart</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right header-cart-toggle">
+                                                        @foreach (Session::get('cart', []) as $productId => $item)
+                                                            <li class="cart-product">
+                                                                <table class="table table-striped">
+                                                                    <tr>
+                                                                        <td class="text-center image">
+                                                                            <a href="#">
+                                                                                <img src="{{ Storage::url($item['main_image']) }}" />
+                                                                            </a>
+                                                                        </td>
+                                                                        <td class="text-left name">
+                                                                            <a href="#">{{ $item['name'] }}</a>
+                                                                        </td>
+                                                                        <td class="text-right">x {{ $item['quantity'] }}</td>
+                                                                        <td class="text-right amount">${{ $item['price'] * $item['quantity'] }}</td>
+                                                                        <td class="text-center button">
+                                                                            <button type="button" onclick="removeFromCart('{{ $productId }}');" title="Remove" class="btn btn-danger btn-xs">
+                                                                                <i class="icofont-close"></i>
+                                                                            </button>
+                                                                        </td>
+                                                                    </tr>
+                                                                </table>
+                                                            </li>
+                                                        @endforeach
+                                                        <li>
+                                                            <div>
+                                                                <table class="table table-bordered">
+                                                                    <tr>
+                                                                        <td class="text-right"><strong>Total</strong></td>
+                                                                        <td class="text-right price-total">cfa  </td>
+                                                                    </tr>
+                                                                </table>
+                                                                <p class="text-right">
+                                                                    <a href="{{ route('cart.index') }}"><strong>View Cart</strong></a>
+                                                                    <a href="#"><strong>Checkout</strong></a>
+                                                                </p>
+                                                            </div>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        @else
+                                            <li class="tbcart">
+                                                <div id="cart" class="btn-group">
+                                                    <button type="button" data-toggle="dropdown" data-loading-text="Loading..."
+                                                            class="btn btn-inverse btn-block btn-lg dropdown-toggle">
+                                                        <i class="icofont-shopping-cart"></i>
+                                                        <span id="cart-total">{{ count(Session::get('cart', [])) }}</span>
+                                                        <span class="cart-heading">Cart</span>
+                                                    </button>
+                                                    <ul class="dropdown-menu pull-right header-cart-toggle">
+                                                        <li>
+                                                            <p class="text-center">Your shopping cart is empty!</p>
+                                                        </li>
+                                                    </ul>
+                                                </div>
+                                            </li>
+                                        @endif
 				                    </ul>
 			                    </div>
 		                    </div>

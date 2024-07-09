@@ -216,6 +216,10 @@
                                                         <label class="form-label">Prix</label>
                                                         <input name="price" type="number" class="form-control" required>
                                                     </div>
+                                                    <div class="mb-3">
+                                                        <label class="form-label">Stock</label>
+                                                        <input name="stock" type="number" class="form-control" required>
+                                                    </div>
                                                 </div>
                                             </div>
                                         </div>

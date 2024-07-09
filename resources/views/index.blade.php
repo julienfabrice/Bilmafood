@@ -1282,7 +1282,7 @@
 					<div class="product-layouts">
 						<div class="product-thumb transition">
 							<div class="image">  
-								<a href="indexd21c.html?route=product/product&amp;product_id=47"> 
+								<a href="{{ route('product.productDetail', $product->id) }}"> 
 									<img class="image_thumb" src="{{ Storage::url($product->main_image) }}" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" /> 
 									<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" /> 
 								</a>                             
@@ -1292,7 +1292,7 @@
 									<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
 								</div> -->
 								<div class="button-group">
-									<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('47')">
+									<button class="btn-cart " type="button" title="Add to Cart" onclick="addToCart({{ $product->id }})">
 										<i class="icofont-shopping-cart"></i>
 										<span class="hidden-xs hidden-sm hidden-md">
 											Add to Cart
@@ -1328,6 +1328,8 @@
 						</div>
 					</div>
 				@endforeach
+
+				
 						<div class="product-layouts">
 				<div class="product-thumb transition">
 					<div class="image">  <a href="index5adf.html?route=product/product&amp;product_id=53"> <img class="image_thumb" src="image/cache/catalog/demo/product/20-330x432.jpg" title="Kaccha Aam Tangy Jam" alt="Kaccha Aam Tangy Jam" /> <img class="image_thumb_swap" src="image/cache/catalog/demo/product/20-02-330x432.jpg" title="Kaccha Aam Tangy Jam" alt="Kaccha Aam Tangy Jam" /> </a>                             <div class="sale-icon">Sale</div>
@@ -1959,6 +1961,56 @@
 					});
 				});
 			//--></script>
+				
+				<script>
+    function addToCart(productId) {
+        fetch(`/cart/add/${productId}`, {
+            method: 'POST',
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}',
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.json()).then(data => {
+            updateCartDisplay(data);
+        });
+    }
+
+    function removeFromCart(productId) {
+        fetch(`/cart/remove/${productId}`, {
+            method: 'POST',
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}',
+                'Content-Type': 'application/json'
+            }
+        }).then(response => response.json()).then(data => {
+            updateCartDisplay(data);
+        });
+    }
+
+    function updateCart(productId, quantity) {
+        fetch(`/cart/update/${productId}`, {
+            method: 'POST',
+            headers: {
+                'X-CSRF-TOKEN': '{{ csrf_token() }}',
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({ quantity })
+        }).then(response => response.json()).then(data => {
+            updateCartDisplay(data);
+        });
+    }
+
+    function updateCartDisplay(cart) {
+        const cartTotal = document.getElementById('cart-total');
+        cartTotal.textContent = Object.keys(cart).length;
+        // Mettre à jour d'autres éléments du panier ici si nécessaire
+
+    }
+		function updateCartHeader(cartTotal) {
+		document.getElementById('cart-total').textContent = cartTotal;
+	}
+</script>
+
 		
 	<script src="catalog/language/js/language.js"></script>
 	<script src="catalog/language/js/transcription.js"></script>

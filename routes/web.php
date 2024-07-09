@@ -21,11 +21,13 @@ use App\Http\Controllers\QualityController;
 use App\Http\Controllers\SocietyController;
 use Illuminate\Support\Facades\Route;
 
+use App\Http\Controllers\CartController;
+
 Route::get('/', [AppController::class, 'index'])->name('app.index');
 Route::get('/products', [ProductController::class, 'index'])->name('products.index');
 Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
 Route::get('/contactus', [ContactController::class, 'index'])->name('contact.index');
-Route::get('/product/detail', [ProductController::class, 'productDetails'])->name('product.productDetail');
+Route::get('/product/detail/{product}', [ProductController::class, 'productDetails'])->name('product.productDetail');
 
 Route::get('/society',[SocietyController::class,'index'])->name('society.index');
 Route::get('/quality',[QualityController::class,'index'])->name('quality.index');
@@ -71,4 +73,15 @@ Route::middleware(['auth:admin'])->group(function () {
     Route::delete('/adminbilma/category/{categorie}', [AdminCategoryController::class, 'destroy'])->name('admin.destroycategory');
 
 });
+
+//Card 
+
+// routes/web.php
+
+Route::get('/cart', 'CartController@index')->name('cart.index');
+Route::post('/cart/add/{id}', 'CartController@add')->name('cart.add');
+
+Route::post('/cart/remove/{id}', 'CartController@remove')->name('cart.remove');
+Route::post('/cart/update/{id}', 'CartController@update')->name('cart.update');
+
 

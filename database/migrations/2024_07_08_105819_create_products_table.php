@@ -13,6 +13,7 @@ class CreateProductsTable extends Migration
             $table->string('name');
             $table->text('description');
             $table->decimal('price', 8, 2);
+            $table->integer('stock');
             $table->string('main_image')->nullable();
             $table->json('other_images')->nullable();
             $table->unsignedBigInteger('categorie_id');

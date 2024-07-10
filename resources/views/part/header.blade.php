@@ -250,58 +250,68 @@
                                                     </div>	
                                                 </li>
 											</ul>
-					                    </li>
-					                    @if (count(Session::get('cart', [])) > 0)
+					                    </li> 
                                             <li class="tbcart">
                                                 <div id="cart" class="btn-group">
                                                     <button type="button" data-toggle="dropdown" data-loading-text="Loading..."
                                                             class="btn btn-inverse btn-block btn-lg dropdown-toggle">
                                                         <i class="icofont-shopping-cart"></i>
-                                                        <span id="cart-total">{{ count(Session::get('cart')) }}</span>
+                                                        <span id="cart-total">{{ count((array) session('cart')) }}</span>
                                                         <span class="cart-heading">Cart</span>
                                                     </button>
-                                                    <ul class="dropdown-menu pull-right header-cart-toggle">
-                                                        @foreach (Session::get('cart', []) as $productId => $item)
-                                                            <li class="cart-product">
-                                                                <table class="table table-striped">
-                                                                    <tr>
-                                                                        <td class="text-center image">
-                                                                            <a href="#">
-                                                                                <img src="{{ Storage::url($item['main_image']) }}" />
-                                                                            </a>
-                                                                        </td>
-                                                                        <td class="text-left name">
-                                                                            <a href="#">{{ $item['name'] }}</a>
-                                                                        </td>
-                                                                        <td class="text-right">x {{ $item['quantity'] }}</td>
-                                                                        <td class="text-right amount">${{ $item['price'] * $item['quantity'] }}</td>
-                                                                        <td class="text-center button">
-                                                                            <button type="button" onclick="removeFromCart('{{ $productId }}');" title="Remove" class="btn btn-danger btn-xs">
-                                                                                <i class="icofont-close"></i>
-                                                                            </button>
-                                                                        </td>
-                                                                    </tr>
-                                                                </table>
+                                                    <ul class="dropdown-menu pull-right header-cart-toggle" id="cart-items">
+                                                        @if(session('cart'))
+                                                            @foreach (Session::get('cart', []) as $productId => $item)
+                                                                <li class="cart-product" data-product-id="{{ $productId }}">
+                                                                    <table class="table table-striped">
+                                                                        <tr>
+                                                                            <td class="text-center image">
+                                                                                <a href="#">
+                                                                                    <img src="{{ Storage::url($item['main_image']) }}" />
+                                                                                </a>
+                                                                            </td>
+                                                                            <td class="text-left name">
+                                                                                <a href="#">{{ $item['name'] }}</a>
+                                                                            </td>
+                                                                            <td class="text-right">x{{ $item['quantity'] }}</td>
+                                                                            <td class="text-right amount">{{ $item['price'] * $item['quantity'] }}</td>
+                                                                            <td class="text-center button">
+                                                                                <button type="button" class="remove_card" data-product-id="{{ $productId }}" title="Remove" class="btn btn-danger btn-xs">
+                                                                                    <i class="icofont-close"></i>
+                                                                                </button>
+                                                                            </td>
+                                                                        </tr>
+                                                                    </table>
+                                                                </li>
+                                                            @endforeach
+                                                            <li id="cart-total-section">
+                                                                <div>
+                                                                    <table class="table table-bordered">
+                                                                        @php $total = 0 @endphp
+                                                                        @foreach((array) session('cart') as $id => $item)
+                                                                            @php $total += $item['price'] * $item['quantity'] @endphp
+                                                                        @endforeach
+                                                                        <tr>
+                                                                            <td class="text-right"><strong>Total</strong></td>
+                                                                            <td class="text-right price-total">cfa {{ $total }}</td>
+                                                                        </tr>
+                                                                    </table>
+                                                                    <p class="text-right">
+                                                                        <a href="{{ route('cart') }}"><strong>View Cart</strong></a>
+                                                                        <a href="#"><strong>Checkout</strong></a>
+                                                                    </p>
+                                                                </div>
                                                             </li>
-                                                        @endforeach
-                                                        <li>
-                                                            <div>
-                                                                <table class="table table-bordered">
-                                                                    <tr>
-                                                                        <td class="text-right"><strong>Total</strong></td>
-                                                                        <td class="text-right price-total">cfa  </td>
-                                                                    </tr>
-                                                                </table>
-                                                                <p class="text-right">
-                                                                    <a href="{{ route('cart.index') }}"><strong>View Cart</strong></a>
-                                                                    <a href="#"><strong>Checkout</strong></a>
-                                                                </p>
-                                                            </div>
-                                                        </li>
+                                                        @else
+                                                            <li>
+                                                                <p class="text-center">Your shopping cart is empty!</p>
+                                                            </li>
+                                                        @endif
                                                     </ul>
                                                 </div>
+
                                             </li>
-                                        @else
+                                        <!-- 
                                             <li class="tbcart">
                                                 <div id="cart" class="btn-group">
                                                     <button type="button" data-toggle="dropdown" data-loading-text="Loading..."
@@ -317,7 +327,7 @@
                                                     </ul>
                                                 </div>
                                             </li>
-                                        @endif
+                                         -->
 				                    </ul>
 			                    </div>
 		                    </div>

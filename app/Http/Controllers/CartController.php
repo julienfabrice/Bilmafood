@@ -11,22 +11,25 @@ class CartController extends Controller
 {
     public function index()
     {
-        $cart = session()->get('cart', []);
-        $total = array_sum(array_map(function ($item) {
-            return $item['price'] * $item['quantity'];
-        }, $cart));
-        
-        return view('cart.index', compact('cart', 'total'));
+        $product = Product::all();
+        return view('cart', compact('product'));
     }
+    //     }
 
-    // app/Http/Controllers/CartController.php
+    //     session()->put('cart', $cart);
 
-    public function add(Request $request, $id)
+    //     $cartTotal = array_sum(array_map(function ($item) {
+    //         return $item['quantity'];
+    //     }, $cart));
+
+    //     return response()->json(['cartTotal' => $cartTotal, 'productName' => $product->name]);
+    // }
+    public function addToCart($id)
     {
-        $product = Product::find($id);
+        $product = Product::findOrFail($id);
         $cart = session()->get('cart', []);
-
-        if(isset($cart[$id])) {
+    
+        if (isset($cart[$id])) {
             $cart[$id]['quantity']++;
         } else {
             $cart[$id] = [
@@ -36,27 +39,32 @@ class CartController extends Controller
                 'main_image' => $product->main_image
             ];
         }
-
+    
         session()->put('cart', $cart);
-
-        $cartTotal = array_sum(array_map(function ($item) {
-            return $item['quantity'];
-        }, $cart));
-
-        return response()->json(['cartTotal' => $cartTotal, 'productName' => $product->name]);
+    
+        return response()->json([
+            'success' => 'Produit ajouté au panier avec succès',
+            'cart' => $cart
+        ]);
     }
 
 
-    public function remove($id)
+    public function removeFromCart($id)
     {
         $cart = session()->get('cart', []);
-        if(isset($cart[$id])) {
+    
+        if (isset($cart[$id])) {
             unset($cart[$id]);
             session()->put('cart', $cart);
         }
-
-        return response()->json($cart);
+    
+        return response()->json([
+            'success' => 'Produit retiré du panier avec succès',
+            'cart' => $cart
+        ]);
     }
+    
+
 
     public function update(Request $request, $id)
     {

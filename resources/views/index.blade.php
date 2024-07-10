@@ -13,7 +13,7 @@
 <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
 <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
 
-
+<!-- <script src="https://cdn.jsdelivr.net/npm/jquery@3.7.1/dist/jquery.min.js"></script> -->
 <link href="https://fonts.googleapis.com/css2?family=Playball&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
 <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet"> 
 
@@ -1292,7 +1292,7 @@
 									<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
 								</div> -->
 								<div class="button-group">
-									<button class="btn-cart " type="button" title="Add to Cart" onclick="addToCart({{ $product->id }})">
+									<button class="btn-cart add_card" data-product-id="{{ $product->id }}" type="button" title="Add to Cart">
 										<i class="icofont-shopping-cart"></i>
 										<span class="hidden-xs hidden-sm hidden-md">
 											Add to Cart
@@ -1301,7 +1301,9 @@
 											<i class="icofont-refresh"></i>
 										</span>
 									</button>
-									<button class="btn-wishlist" title="Add to Wish List"  onclick="wishlist.add('47');"><i class="icofont-heart"></i>
+									<!-- <a href="{{ route('card.add', $product->id) }}">
+									</a> -->
+									<button class="btn-wishlist " title="Add to Wish List"  onclick="wishlist.add('47');"><i class="icofont-heart"></i>
 										<span title="Add to Wish List">Add to Wish List</span>
 										<span class="loading"><i class="icofont-refresh"></i></span>
 									</button>
@@ -1961,55 +1963,130 @@
 					});
 				});
 			//--></script>
-				
-				<script>
-    function addToCart(productId) {
-        fetch(`/cart/add/${productId}`, {
-            method: 'POST',
-            headers: {
-                'X-CSRF-TOKEN': '{{ csrf_token() }}',
-                'Content-Type': 'application/json'
-            }
-        }).then(response => response.json()).then(data => {
-            updateCartDisplay(data);
-        });
-    }
 
-    function removeFromCart(productId) {
-        fetch(`/cart/remove/${productId}`, {
-            method: 'POST',
-            headers: {
-                'X-CSRF-TOKEN': '{{ csrf_token() }}',
-                'Content-Type': 'application/json'
-            }
-        }).then(response => response.json()).then(data => {
-            updateCartDisplay(data);
-        });
-    }
+	<script type="text/javascript">
+		$(".add_card").click(function(e) {
+			e.preventDefault();
+			
+			var ele = $(this);
+			var productId = ele.data('product-id');
 
-    function updateCart(productId, quantity) {
-        fetch(`/cart/update/${productId}`, {
-            method: 'POST',
-            headers: {
-                'X-CSRF-TOKEN': '{{ csrf_token() }}',
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ quantity })
-        }).then(response => response.json()).then(data => {
-            updateCartDisplay(data);
-        });
-    }
+			$.ajax({
+				url: `/cart/add/${productId}`,
+				method: "POST",
+				data: {
+					_token: '{{ csrf_token() }}',
+				},
+				success: function(response) {
+					if (response.success) {
+						alert('Produit ajouté au panier avec succès');
+						updateCart(response.cart);
+					}
+				},
+				error: function(xhr) {
+					alert('Erreur lors de l\'ajout au panier');
+				}
+			});
+		});
 
-    function updateCartDisplay(cart) {
-        const cartTotal = document.getElementById('cart-total');
-        cartTotal.textContent = Object.keys(cart).length;
-        // Mettre à jour d'autres éléments du panier ici si nécessaire
+		function updateCart(cart) {
+			var cartHtml = '';
+			var total = 0;
 
-    }
-		function updateCartHeader(cartTotal) {
-		document.getElementById('cart-total').textContent = cartTotal;
-	}
-</script>
+			if ($.isEmptyObject(cart)) {
+				cartHtml = '<ul class="dropdown-menu pull-right header-cart-toggle"><p class="text-center">Your shopping cart is empty!</p></li>';
+			} else {
+				$.each(cart, function(id, item) {
+					cartHtml += '<li class="cart-product" data-product-id="' + id + '">';
+					cartHtml += '<table class="table table-striped">';
+					cartHtml += '<tr>';
+					cartHtml += '<td class="text-center image"><a href="#"><img src="/storage/' + item.main_image + '" /></a></td>';
+					cartHtml += '<td class="text-left name"><a href="#">' + item.name + '</a></td>';
+					cartHtml += '<td class="text-right">x ' + item.quantity + '</td>';
+					cartHtml += '<td class="text-right amount">$' + (item.price * item.quantity) + '</td>';
+					cartHtml += '<td class="text-center button"><button type="button" class="remove_card" data-product-id="' + id + '" title="Remove" class="btn btn-danger btn-xs"><i class="icofont-close"></i></button></td>';
+					cartHtml += '</tr>';
+					cartHtml += '</table>';
+					cartHtml += '</li>';
+					
+					total += item.price * item.quantity;
+				});
+
+				cartHtml += '<li id="cart-total-section"><div><table class="table table-bordered">';
+				cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
+				cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
+				cartHtml += '</tr></table>';
+				cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
+				cartHtml += '</div></li>';
+			}
+
+			$('#cart-items').html(cartHtml);
+			$('#cart-total').text(Object.keys(cart).length);
+		};
+		
+		$(document).on('click', '.remove_card', function(e) {
+			e.preventDefault();
+
+			var ele = $(this);
+			var productId = ele.data('product-id');
+
+			$.ajax({
+				url: `/cart/remove/${productId}`,
+				method: "POST",
+				data: {
+					_token: '{{ csrf_token() }}',
+				},
+				success: function(response) {
+					if (response.success) {
+						alert(response.success);
+						updateCart(response.cart);
+					}
+				},
+				error: function(xhr) {
+					alert('Erreur lors de la suppression du produit du panier');
+				}
+			});
+		});
+
+		function updateCart(cart) {
+			var cartHtml = '';
+			var total = 0;
+
+			if ($.isEmptyObject(cart)) {
+				cartHtml = '<li><p class="text-center">Your shopping cart is empty!</p></li>';
+			} else {
+				$.each(cart, function(id, item) {
+					cartHtml += '<li class="cart-product" data-product-id="' + id + '">';
+					cartHtml += '<table class="table table-striped">';
+					cartHtml += '<tr>';
+					cartHtml += '<td class="text-center image"><a href="#"><img src="/storage/' + item.main_image + '" /></a></td>';
+					cartHtml += '<td class="text-left name"><a href="#">' + item.name + '</a></td>';
+					cartHtml += '<td class="text-right">x ' + item.quantity + '</td>';
+					cartHtml += '<td class="text-right amount">$' + (item.price * item.quantity) + '</td>';
+					cartHtml += '<td class="text-center button"><button type="button" class="remove_card" data-product-id="' + id + '" title="Remove" class="btn btn-danger btn-xs"><i class="icofont-close"></i></button></td>';
+					cartHtml += '</tr>';
+					cartHtml += '</table>';
+					cartHtml += '</li>';
+
+					total += item.price * item.quantity;
+				});
+
+				cartHtml += '<li id="cart-total-section"><div><table class="table table-bordered">';
+				cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
+				cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
+				cartHtml += '</tr></table>';
+				cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
+				cartHtml += '</div></li>';
+			}
+
+			$('#cart-items').html(cartHtml);
+			$('#cart-total').text(Object.keys(cart).length);
+		}
+
+
+		
+		
+		</script>
 
 		
 	<script src="catalog/language/js/language.js"></script>

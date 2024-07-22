@@ -79,9 +79,10 @@ Route::middleware(['auth:admin'])->group(function () {
 // routes/web.php
 
 Route::get('/cart', [CartController::class, 'index'])->name('cart');
-Route::post('/cart/add/{id}', [CartController::class, 'addToCart'])->name('card.add');
+Route::post('/cart/add/{id}', [CartController::class, 'addToCart'])->name('cart.add');
 Route::post('/cart/remove/{id}', [CartController::class, 'removeFromCart'])->name('cart.remove');
-// Route::post('/cart/add/{id}', [CartController::class, 'addToCart'])->name('card.add');
+Route::post('/cart/update/{id}', [CartController::class, 'updateCart'])->name('cart.update');
+
 
 
 

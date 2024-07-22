@@ -7,20 +7,13 @@ use Illuminate\Http\Request;
 use App\Models\Product;
 use App\Models\Categorie;
 use Illuminate\Support\Facades\Storage;
-use App\Repositories\ProductRepository;
 
 
 class AdminProductController extends Controller
-{
-    protected $productRepository;
-
-    public function __construct(ProductRepository $productRepository)
-    {
-        $this->productRepository = $productRepository;
-    }   
+{  
     public function index()
     {
-        $products = $this->productRepository->getAll();
+        $products = Product::all();
         return view('admin.product', compact('products'));
     }
 

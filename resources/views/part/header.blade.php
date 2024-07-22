@@ -62,7 +62,7 @@
 
 													<li class="li-top-item mega-menu">
                                                         <a class="a-top-link" href="{{ route('society.index') }}">
-                                                            <span>Notre Societé </span>
+                                                            <span>Our society</span>
                                                         </a>
                                                         <!-- Mega Menu -->
                                                         <!-- Flyout Menu -->                            
@@ -84,7 +84,7 @@
 													
 													<li class="li-top-item mega-menu">
                                                         <a class="a-top-link" href="{{ route('quality.index') }}">
-                                                            <span>Qualité </span>
+                                                            <span>Quality </span>
                                                         </a>
                                                         <!-- Mega Menu -->
                                                         <!-- Flyout Menu -->                            
@@ -116,7 +116,7 @@
                                                     
                                                     <li class="li-top-item ">
                                                         <a class="a-top-link" href="{{ route('jam.index') }}">
-                                                            <span data-key="header.jam">confiture</span>
+                                                            <span data-key="header.jam">Jam</span>
                                                         </a>
                                                     </li>
                                                     <!-- <li class="li-top-item ">
@@ -233,6 +233,11 @@
                                                         Register
                                                     </a>
                                                 </li>
+							                    <li>
+                                                    <a href="{{ route('client.logout') }}"><i class="icofont-user-alt-7"></i> 
+                                                        Logout
+                                                    </a>
+                                                </li>
 							                    <li class="tblanguage clearfix">
                                                     <div class="js">
                                                         <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle">
@@ -276,7 +281,7 @@
                                                                             <td class="text-right">x{{ $item['quantity'] }}</td>
                                                                             <td class="text-right amount">{{ $item['price'] * $item['quantity'] }}</td>
                                                                             <td class="text-center button">
-                                                                                <button type="button" class="remove_card" data-product-id="{{ $productId }}" title="Remove" class="btn btn-danger btn-xs">
+                                                                                <button type="button" class="remove_card" style="background:none; border:none" data-product-id="{{ $productId }}" title="Remove" class="btn btn-danger btn-xs" >
                                                                                     <i class="icofont-close"></i>
                                                                                 </button>
                                                                             </td>

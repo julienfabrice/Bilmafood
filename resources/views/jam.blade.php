@@ -378,10 +378,10 @@ $('#banner0').swiper({
         <div class="sidebar panel panel-default information-list">
 <div class="panel-heading">Information</div>
   <div class="list-group">
-        <a href="index8816.html?route=information/information&amp;information_id=4" class="list-group-item">About Us</a>
-        <a href="index1766.html?route=information/information&amp;information_id=6" class="list-group-item">Delivery Information</a>
-        <a href="index1679.html?route=information/information&amp;information_id=3" class="list-group-item">Privacy Policy</a>
-        <a href="index99e4.html?route=information/information&amp;information_id=5" class="list-group-item">Terms &amp; Conditions</a>
+        <a href="#" class="list-group-item">About Us</a>
+        <a href="#" class="list-group-item">Delivery Information</a>
+        <a href="#" class="list-group-item">Privacy Policy</a>
+        <a href="#" class="list-group-item">Terms &amp; Conditions</a>
         <a href="index2724.html?route=information/contact" class="list-group-item">Contact Us</a>
     <a href="index7cb2.html?route=information/sitemap" class="list-group-item">Site Map</a>
   </div>

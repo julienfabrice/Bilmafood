@@ -220,24 +220,32 @@
                                                 <span class="tbuserheading">my Account</span><i class="icofont-simple-down"></i>
                                             </a>
 						                    <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
+                                                @if(!Auth::guard('client')->check())
 												<li>
                                                     <a href="{{ route('client.login') }}"><i class="icofont-lock"></i> Login</a>
-                                                </li>
-							                    <li>
-                                                    <a href="#" id="wishlist-total" title="Wish List (0)"><i class="icofont-heart"></i> 
-                                                        <span class="hidden-sm hidden-md">Wish List (0)</span>
-                                                    </a>
                                                 </li>
 							                    <li>
                                                     <a href="{{ route('client.register') }}"><i class="icofont-user-alt-7"></i> 
                                                         Register
                                                     </a>
                                                 </li>
-							                    <li>
-                                                    <a href="{{ route('client.logout') }}"><i class="icofont-user-alt-7"></i> 
+                                                @else
+                                                <li>
+                                                    <a href="{{ route('account.index') }}"><i class="icofont-user-alt-7"></i> 
+                                                        my Account
+                                                    </a>
+                                                </li>
+                                                <li>
+                                                    <form id="logout-form" action="{{ route('client.logout') }}" method="POST" style="display: none;">
+                                                        @csrf
+                                                    </form>
+                                                    <a href="{{ route('client.logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
+                                                        <i class="icofont-lock"></i>
                                                         Logout
                                                     </a>
                                                 </li>
+                                                @endif
+							                    
 							                    <li class="tblanguage clearfix">
                                                     <div class="js">
                                                         <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle">

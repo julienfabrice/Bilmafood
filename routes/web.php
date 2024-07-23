@@ -13,6 +13,7 @@ use App\Http\Controllers\Admin\DashboardController;
 use App\Http\Controllers\Auth\RegisterController;
 use App\Http\Controllers\CategoryController;
 use App\Http\Controllers\ContactController;
+use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ProductController;
 
 use App\Http\Controllers\BlogController;
@@ -46,9 +47,12 @@ Route::get('register', [RegisterController::class, 'showRegisterForm'])->name('c
 Route::post('register', [RegisterController::class, 'registerClient'])->name('client.register');
 
 
+
 // Secured routes for clients
 Route::middleware(['auth:client'])->group(function () {
     Route::get('/account', [AccountController::class, 'index'])->name('account.index');
+    Route::post('/order/create', [OrderController::class, 'createOrder'])->name('order.create');
+    Route::get('/order/success/{order}', [OrderController::class, 'orderSuccess'])->name('order.success'); 
 });
 
 // Admin Routes

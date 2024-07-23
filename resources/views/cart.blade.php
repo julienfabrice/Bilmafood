@@ -162,6 +162,55 @@
                     </form>
                     <div class="row">
                         <div class="panel-group col-sm-8" id="accordion">
+                        @if(Auth::guard('client')->check())
+                        <form action="{{ route('order.create') }}" method="POST">
+                            @csrf
+                            <div class="form-group">
+                                <label for="delivery_method">Méthode de livraison</label>
+                                <select name="delivery_method" id="delivery_method" class="form-control" required>
+                                    <option value="depot">Passer dans un dépôt</option>
+                                    <option value="domicile">Livraison à domicile</option>
+                                    <option value="autre">Livraison dans une autre ville</option>
+                                </select>
+                            </div>
+                            <div id="delivery-details" style="display: none;">
+                                <div class="form-group">
+                                    <label for="city">Ville</label>
+                                    <input type="text" name="city" id="city" class="form-control">
+                                </div>
+                                <div class="form-group">
+                                    <label for="neighborhood">Quartier</label>
+                                    <input type="text" name="neighborhood" id="neighborhood" class="form-control">
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <label for="delivery_price">Prix de livraison</label>
+                                <input type="number" name="delivery_price" id="delivery_price" class="form-control" value="0" required readonly>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Passer la commande</button>
+                        </form>
+                        @endif
+                        <script>
+                            document.getElementById('delivery_method').addEventListener('change', function () {
+                                var method = this.value;
+                                var details = document.getElementById('delivery-details');
+                                var priceInput = document.getElementById('delivery_price');
+
+                                if (method === 'depot') {
+                                    details.style.display = 'none';
+                                    priceInput.value = 0;
+                                    priceInput.readOnly = true;
+                                } else if (method === 'domicile') {
+                                    details.style.display = 'block';
+                                    priceInput.value = 500; // Prix fixe pour la livraison à domicile
+                                    priceInput.readOnly = true;
+                                } else if (method === 'autre') {
+                                    details.style.display = 'block';
+                                    priceInput.value = 1000; // Prix fixe pour la livraison dans une autre ville
+                                    priceInput.readOnly = true;
+                                }
+                            });
+                        </script>
 
                         </div>
                         <div class="col-sm-4 sub-total-table">
@@ -194,7 +243,12 @@
                         <div class="pull-right"><a href="#" class="btn btn-primary checkout">Checkout</a></div>
                     </div>
                     @else
-
+                    <p>Your shopping cart is empty!</p>
+                    <div class="buttons clearfix">
+                        <div class="pull-right">
+                            <a href="{{ route('app.index') }}" class="btn btn-primary">Continue</a>
+                        </div>
+                    </div>
                     @endif
                 </div>
             </div>

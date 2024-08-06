@@ -59,10 +59,9 @@
                                                                                                                         
                                                         <!-- Flyout Menu -->
                                                     </li>
-
 													<li class="li-top-item mega-menu">
                                                         <a class="a-top-link" href="{{ route('society.index') }}">
-                                                            <span>Our society</span>
+                                                            <span data-key="header.society">Our society</span>
                                                         </a>
                                                         <!-- Mega Menu -->
                                                         <!-- Flyout Menu -->                            
@@ -222,14 +221,19 @@
 						                    <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
                                                 @if(!Auth::guard('client')->check())
 												<li>
-                                                    <a href="{{ route('client.login') }}"><i class="icofont-lock"></i> Login</a>
+                                                    <a data-key="login" href="{{ route('client.login') }}"><i class="icofont-lock"></i> Login</a>
                                                 </li>
 							                    <li>
-                                                    <a href="{{ route('client.register') }}"><i class="icofont-user-alt-7"></i> 
+                                                    <a data-key="register" href="{{ route('client.register') }}"><i class="icofont-user-alt-7"></i> 
                                                         Register
                                                     </a>
                                                 </li>
                                                 @else
+                                                <li>
+                                                    <a href="{{ route('ordersHistory.index') }}"><i class="icofont-calendar"></i> 
+                                                        Order History
+                                                    </a>
+                                                </li>
                                                 <li>
                                                     <a href="{{ route('account.index') }}"><i class="icofont-user-alt-7"></i> 
                                                         my Account
@@ -240,7 +244,7 @@
                                                         @csrf
                                                     </form>
                                                     <a href="{{ route('client.logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                                        <i class="icofont-lock"></i>
+                                                    <i class="icofont-lock"></i>
                                                         Logout
                                                     </a>
                                                 </li>

@@ -245,162 +245,6 @@
 								</div>
 							</div>
 						</div>
-
-						<div id="TB-category-featured">
-							<div class="container">
-								<div class="tb-row">
-									<div class="tb-category-featured-title">
-										<div class="TB-Commen-Heading">
-											<h3>Categories Features</h3>
-										</div>
-									</div>
-									<div class="tbfcat-items">
-										<div class="tb-category-featured-carousel wow fadeInUp" data-wow-delay="0.3s">
-											<div class="item">
-												<div class="content">
-													<div class="tb_cat_content">
-														<div class="image">
-															<a href="#">
-																<img src="image/cache/catalog/demo/banners/categories-img-01-330x300.png" alt="Berryblast " title="Berryblast " class="img-responsive" />
-															</a>
-														</div>
-														<div class="caption">
-															<div class="tb-content">
-																<div class="cat-title">
-																	<h4><a href="#">Berryblast </a></h4>
-																</div>
-																<div class="tb-sub-cat">
-																	<ul>
-																		<li><a href="#" class="list-group-item">Blast Jam</a></li>
-																		<li><a href="#" class="list-group-item">Jambo Jam </a></li>
-																		<li><a href="#" class="list-group-item">Orange </a></li>
-																		<li><a href="#" class="list-group-item">Strwberry </a></li>
-																		<li><a href="#" class="list-group-item">Tropical</a></li>
-																	</ul>
-																</div>
-															</div>
-														</div> <!-- Caption END -->
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="content">
-													<div class="tb_cat_content">
-														<div class="image">
-															<a href="#">
-																<img src="image/cache/catalog/demo/banners/categories-img-02-330x300.png" alt="Mixed Fruit" title="Mixed Fruit" class="img-responsive" />
-															</a>
-														</div>
-														<div class="caption">
-															<div class="tb-content">
-																<div class="cat-title">
-																	<h4><a href="#">Mixed Fruit</a></h4>
-																</div>
-																<div class="tb-sub-cat">
-																	<ul>
-																		<li><a href="#" class="list-group-item">Exotic Jam </a></li>
-																		<li><a href="#" class="list-group-item">Flavor</a></li>
-																		<li><a href="#" class="list-group-item">Lion Jam</a></li>
-																		<li><a href="#" class="list-group-item">Mantra </a></li>
-																		<li><a href="#" class="list-group-item">Orchard </a></li>
-																	</ul>
-																</div>
-															</div>
-														</div> <!-- Caption END -->
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="content">
-													<div class="tb_cat_content">
-														<div class="image">
-															<a href="#">
-																<img src="image/cache/catalog/demo/banners/categories-img-05-330x300.png" alt="Orange Jam" title="Orange Jam" class="img-responsive" />
-															</a>
-														</div>
-														<div class="caption">
-															<div class="tb-content">
-																<div class="cat-title">
-																	<h4><a href="#">Orange Jam</a></h4>
-																</div>
-																<div class="tb-sub-cat">
-																	<ul>
-																		<li><a href="#" class="list-group-item">Blackberry</a></li>
-																		<li><a href="#" class="list-group-item">Marmalade</a></li>
-																		<li><a href="#" class="list-group-item">Rasberry </a></li>
-																		<li><a href="#" class="list-group-item">Seville</a></li>
-																		<li><a href="#" class="list-group-item">Margaret</a></li>
-																	</ul>
-																</div>
-															</div>
-														</div> <!-- Caption END -->
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="content">
-													<div class="tb_cat_content">
-														<div class="image">
-															<a href="#">
-																<img src="image/cache/catalog/demo/banners/categories-img-04-330x300.png" alt="Mango Jam" title="Mango Jam" class="img-responsive" />
-															</a>
-														</div>
-														<div class="caption">
-															<div class="tb-content">
-																<div class="cat-title">
-																	<h4><a href="#">Mango Jam</a></h4>
-																</div>
-																<div class="tb-sub-cat">
-																	<ul>
-																		<li><a href="#" class="list-group-item">Abusamaka</a></li>
-																		<li><a href="#" class="list-group-item">Ambika</a></li>
-																		<li><a href="#" class="list-group-item">Chausa</a></li>
-																		<li><a href="#" class="list-group-item">Magloba</a></li>
-																		<li><a href="#" class="list-group-item">GulbAltour</a></li>
-																	</ul>
-																</div>
-															</div>
-														</div> <!-- Caption END -->
-													</div>
-												</div>
-											</div>
-											<div class="item">
-												<div class="content">
-													<div class="tb_cat_content">
-														<div class="image">
-															<a href="#">
-																<img src="image/cache/catalog/demo/banners/categories-img-03-330x300.png" alt="Pineapple" title="Pineapple" class="img-responsive" />
-															</a>
-														</div>
-														<div class="caption">
-															<div class="tb-content">
-																<div class="cat-title">
-																	<h4><a href="#">Pineapple</a></h4>
-																</div>
-																<div class="tb-sub-cat">
-																	<ul>
-																		<li><a href="#" class="list-group-item">Dalfour </a></li>
-																		<li><a href="#" class="list-group-item">Kissan </a></li>
-																		<li><a href="#" class="list-group-item">Mala’s Jam </a></li>
-																		<li><a href="#" class="list-group-item">Preservatives</a></li>
-																		<li><a href="#" class="list-group-item">Splitz Jam</a></li>
-																	</ul>
-																</div>
-															</div>
-														</div> <!-- Caption END -->
-													</div>
-												</div>
-											</div>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
-						<div id="TB-top-product-tab" class="tbproduct-main">
-							<div class="container">
-
-							</div>
-						</div>
 					</div>
 
 
@@ -452,770 +296,95 @@
 		<div class="container">
 			<div class="tb-row">
 				<div class="tb-category-Tab">
-					<div class="TB-Commen-Heading">
-						<h3>Categories Products</h3>
-					</div>
-					<div class="categoryslider-content">
+    				<div class="TB-Commen-Heading">
+        				<h3>Categories Products</h3>
+    				</div>
+    				<div class="categoryslider-content">
 						<div class="tbcat-tab">
-
 							<div id="TBCTab-" class="tab-box-heading">
 								<ul class="nav nav-tabs">
-									<li class="active"><a href="#tab-1" data-toggle="tab">
-											<h3 class="tab-title">Orange Jam</h3>
-										</a></li>
-									<li><a href="#tab-2" data-toggle="tab">
-											<h3 class="tab-title">Mango Jam</h3>
-										</a></li>
-									<li><a href="#tab-3" data-toggle="tab">
-											<h3 class="tab-title">Mixed Fruit</h3>
-										</a></li>
+									@foreach($categories as $category)
+										<li class="{{ $loop->first ? 'active' : '' }}">
+											<a href="#" data-toggle="tab" class="category-tab" data-category-id="{{ $category->id }}">
+												<h3 class="tab-title">{{ $category->name }}</h3>
+											</a>
+										</li>
+									@endforeach
 								</ul>
 							</div>
 						</div>
 
 						<div class="tab-content wow fadeInLeft" data-wow-delay="0.3s">
-
-							<div class="tab-pane fade	 active in" id="tab-1">
-								<div class="tb-category-tab-carousel">
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/03-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
-												</a>
-
-												<div class="sale-icon">Sale</div>
-												<span class="percent">-10%</span>
-
-												<div class="product-countdown">
-													<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
-												</div>
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('47')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('47');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('47');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<!-- Quick View -->
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Bhuira Strawberry Jam</a></h4>
-													<div class="price"> <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/06-330x432.jpg" title="Hero Black Currant Jam" alt="Hero Black Currant Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/06-02-330x432.jpg" title="Hero Black Currant Jam" alt="Hero Black Currant Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('40')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('40');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('40');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Hero Black Currant Jam</a></h4>
-													<div class="price"> $123.20
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/02-330x432.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/02-02-330x432.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" />
-												</a>
-
-												<div class="sale-icon">Sale</div>
-												<span class="percent">-20%</span>
-
-												<div class="product-countdown">
-													<div id="countdown4_30" class="item-countdown" data-date="2024-12-31"></div>
-												</div>
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('30')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('30');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('30');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Jam - Mango 1 kg Jar</a></h4>
-													<div class="price"> <span class="price-new">$98.00</span> <span class="price-old">$122.00</span>
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/08-330x432.jpg" title="Kissan Mango Jam" alt="Kissan Mango Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/08-02-330x432.jpg" title="Kissan Mango Jam" alt="Kissan Mango Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('36')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('36');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('36');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Kissan Mango Jam</a></h4>
-													<div class="price"> $122.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/01-330x432.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/01-02-330x432.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" />
-												</a>
-
-												<div class="sale-icon">Sale</div>
-												<span class="percent">-10%</span>
-
-												<div class="product-countdown">
-													<div id="countdown4_42" class="item-countdown" data-date="2024-12-31"></div>
-												</div>
-
-												<div class="rating"> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star"><i class="icofont-star"></i></span> </div>
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('42')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('42');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('42');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Kissan Pineapple Jam</a></h4>
-													<div class="price"> <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-							<div class="tab-pane fade	" id="tab-2">
-								<div class="tb-category-tab-carousel">
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/04-330x432.jpg" title="Morello Cherry Extra Jam" alt="Morello Cherry Extra Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/04-02-330x432.jpg" title="Morello Cherry Extra Jam" alt="Morello Cherry Extra Jam" />
-												</a>
-
-
-
-												<div class="rating"> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> </div>
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('28')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('28');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('28');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Morello Cherry Extra Jam</a></h4>
-													<div class="price"> $122.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/11-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/11-02-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('43')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('43');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('43');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Natural Jam Bitter Orange</a></h4>
-													<div class="price"> $602.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/13-330x432.jpg" title="Orange Marmalade Jam" alt="Orange Marmalade Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/13-02-330x432.jpg" title="Orange Marmalade Jam" alt="Orange Marmalade Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('45')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('45');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('45');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Orange Marmalade Jam</a></h4>
-													<div class="price"> $2,000.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/15-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/15-02-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('29')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('29');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('29');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Organics Pineapple Jam</a></h4>
-													<div class="price"> $337.99
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/19-330x432.jpg" title="Pineapple Jam Preservatives" alt="Pineapple Jam Preservatives" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/19-02-330x432.jpg" title="Pineapple Jam Preservatives" alt="Pineapple Jam Preservatives" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('46')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('46');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('46');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Pineapple Jam Preservatives</a></h4>
-													<div class="price"> $1,202.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-								</div>
-							</div>
-
-							<div class="tab-pane fade	" id="tab-3">
-								<div class="tb-category-tab-carousel">
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/03-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
-												</a>
-
-												<div class="sale-icon">Sale</div>
-												<span class="percent">-10%</span>
-
-												<div class="product-countdown">
-													<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
-												</div>
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('47')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('47');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('47');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Bhuira Strawberry Jam</a></h4>
-													<div class="price"> <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/18-330x432.jpg" title="Kraft Strawberry Jam" alt="Kraft Strawberry Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/18-02-330x432.jpg" title="Kraft Strawberry Jam" alt="Kraft Strawberry Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('33')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('33');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('33');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Kraft Strawberry Jam</a></h4>
-													<div class="price"> $242.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/14-330x432.jpg" title="Mantra Organic Mango Jam" alt="Mantra Organic Mango Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/14-02-330x432.jpg" title="Mantra Organic Mango Jam" alt="Mantra Organic Mango Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('31')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('31');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('31');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Mantra Organic Mango Jam</a></h4>
-													<div class="price"> $98.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/11-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/11-02-330x432.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('43')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('43');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('43');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Natural Jam Bitter Orange</a></h4>
-													<div class="price"> $602.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
-
-									<div class="product-layouts">
-										<div class="product-thumb transition">
-											<div class="image">
-												<a href="#">
-													<img class="image_thumb" src="image/cache/catalog/demo/product/09-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
-													<img class="image_thumb_swap" src="image/cache/catalog/demo/product/09-02-330x432.jpg" title="Organics Pineapple Jam" alt="Organics Pineapple Jam" />
-												</a>
-
-
-
-
-
-
-												<div class="button-group">
-													<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('34')">
-
-														<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-														</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-													<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('34');"><i class="icofont-heart"></i>
-														<span title="Add to Wish List">Add to Wish List</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-compare" title="Add to compare" onclick="compare.add('34');"><i class="icofont-signal"></i>
-														<span title="Add to compare">Add to compare</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-													<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
-														<span title="Quick view">Quick view</span>
-														<span class="loading"><i class="icofont-refresh"></i></span>
-													</button>
-												</div>
-											</div>
-											<div class="thumb-description">
-												<div class="caption">
-													<h4><a href="#">Organics Pineapple Jam</a></h4>
-													<div class="price"> $122.00
-
-													</div>
-
-
-												</div>
-											</div>
-
-										</div>
-									</div>
-
+							<div class="tab-pane fade active in" id="tab-1">
+								<div class="tb-category-tab-carousel" id="product-container">
+									<!-- Les produits seront chargés ici via AJAX -->
 								</div>
 							</div>
 						</div>
-					</div>
+    				</div>
 				</div>
+				<script>
+					document.addEventListener('DOMContentLoaded', function() {
+						function loadProducts(categoryId) {
+							fetch(`/category/products/${categoryId}`)
+								.then(response => response.json())
+								.then(products => {
+									let productContainer = document.getElementById('product-container');
+									productContainer.innerHTML = '';
+
+									products.forEach(product => {
+										productContainer.innerHTML += `
+											<div class="product-layouts">
+												<div class="product-thumb transition">
+													<div class="image">
+														<a href="#">
+															<img class="image_thumb" src="/storage/${product.main_image}" title="${product.name}" alt="${product.name}" />
+														</a>
+														<div class="button-group">
+															<button class="btn-cart" type="button" title="Add to Cart" onclick="cart.add('${product.id}')">
+																<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart</span><span class="loading"><i class="icofont-refresh"></i></span>
+															</button>
+															<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('${product.id}');">
+																<i class="icofont-heart"></i><span title="Add to Wish List">Add to Wish List</span><span class="loading"><i class="icofont-refresh"></i></span>
+															</button>
+															<button class="btn-compare" title="Add to compare" onclick="compare.add('${product.id}');">
+																<i class="icofont-signal"></i><span title="Add to compare">Add to compare</span><span class="loading"><i class="icofont-refresh"></i></span>
+															</button>
+															<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')">
+																<i class="icofont-eye-alt"></i><span title="Quick view">Quick view</span><span class="loading"><i class="icofont-refresh"></i></span>
+															</button>
+														</div>
+													</div>
+													<div class="thumb-description">
+														<div class="caption">
+															<h4><a href="#">${product.name}</a></h4>
+															<div class="price">
+																<span class="price-new">$${product.price}</span>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
+										`;
+									});
+								})
+								.catch(error => console.error('Error loading products:', error));
+						}
+
+						document.querySelectorAll('.category-tab').forEach(tab => {
+							tab.addEventListener('click', function(e) {
+								e.preventDefault();
+								let categoryId = this.getAttribute('data-category-id');
+								loadProducts(categoryId);
+							});
+						});
+
+						// Charger les produits de la première catégorie au chargement de la page
+						let firstCategoryId = document.querySelector('.category-tab').getAttribute('data-category-id');
+						loadProducts(firstCategoryId);
+					});
+				</script>
+
 			</div>
 		</div>
 	</div>
@@ -1230,10 +399,10 @@
 									<p>Just say anything, George, say what ever's natural, the first thing that comes to your mind. Take that you mutated Bunya nuts black-eyed pea prairie turnip.</p>
 								</div>
 								<div class="tb-testimonial-img">
-									<img src="image/catalog/demo/banners/tb-testimonial-user-images-01.jpg" class="img-fluid" alt="tb-testimonial-img">
+									<img src="#" class="img-fluid" alt="tb-testimonial-img">
 								</div>
 								<div class="tb-testimonial-img-text">
-									<h2>Daly Harry</h2>
+									<h2>XXX XXX</h2>
 									<h3>CEO - Founder</h3>
 								</div>
 								<div class="custom-shape-divider-top-1698822697"></div>
@@ -1243,10 +412,10 @@
 									<p>Nori grape silver beet broccoli kombu beet greens fava bean potato quandong celery. Bunya nuts black-eyed pea prairie turnip leek lentil turnip greens parsnip. </p>
 								</div>
 								<div class="tb-testimonial-img">
-									<img src="image/catalog/demo/banners/tb-testimonial-user-images-02.jpg" class="img-fluid" alt="tb-testimonial-img">
+									<img src="#" class="img-fluid" alt="tb-testimonial-img">
 								</div>
 								<div class="tb-testimonial-img-text">
-									<h2>Mia Wong</h2>
+									<h2>XXX XXX</h2>
 									<h3>Marketing Manager</h3>
 								</div>
 								<div class="custom-shape-divider-top-1698822697"></div>
@@ -1256,10 +425,10 @@
 									<p>Cheese on toast airedale the big cheese. Danish fontina cheesy grin airedale danish fontina taleggio the big cheese macaroni cheese port-salut.</p>
 								</div>
 								<div class="tb-testimonial-img">
-									<img src="image/catalog/demo/banners/tb-testimonial-user-images-03.jpg" class="img-fluid" alt="tb-testimonial-img">
+									<img src="#" class="img-fluid" alt="tb-testimonial-img">
 								</div>
 								<div class="tb-testimonial-img-text">
-									<h2>Trevor Virtue</h2>
+									<h2>XXX XXX</h2>
 									<h3>Web Designer</h3>
 								</div>
 								<div class="custom-shape-divider-top-1698822697"></div>
@@ -1269,10 +438,10 @@
 									<p>The first mate and his Skipper too will do their very best to make the others comfortable in their tropic island nest others comfortable in their tropic islan. </p>
 								</div>
 								<div class="tb-testimonial-img">
-									<img src="image/catalog/demo/banners/tb-testimonial-user-images-01.jpg" class="img-fluid" alt="tb-testimonial-img">
+									<img src="#" class="img-fluid" alt="tb-testimonial-img">
 								</div>
 								<div class="tb-testimonial-img-text">
-									<h2>Nguta Ithya</h2>
+									<h2>XXX XXX</h2>
 									<h3>Producer</h3>
 								</div>
 								<div class="custom-shape-divider-top-1698822697"></div>
@@ -1325,7 +494,7 @@
 											<span title="Add to compare">Add to compare</span>
 											<span class="loading"><i class="icofont-refresh"></i></span>
 										</button>
-										<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexd21c.html?route=product/product&amp;product_id=47')"><i class="icofont-eye-alt"></i>
+										<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
 											<span title="Quick view">Quick view</span>
 											<span class="loading"><i class="icofont-refresh"></i></span>
 										</button>
@@ -1345,92 +514,6 @@
 						</div>
 						@endforeach
 
-
-						<div class="product-layouts">
-							<div class="product-thumb transition">
-								<div class="image"> <a href="index5adf.html?route=product/product&amp;product_id=53"> <img class="image_thumb" src="image/cache/catalog/demo/product/20-330x432.jpg" title="Kaccha Aam Tangy Jam" alt="Kaccha Aam Tangy Jam" /> <img class="image_thumb_swap" src="image/cache/catalog/demo/product/20-02-330x432.jpg" title="Kaccha Aam Tangy Jam" alt="Kaccha Aam Tangy Jam" /> </a>
-									<div class="sale-icon">Sale</div>
-									<span class="percent">-10%</span>
-									<div class="product-countdown">
-										<div id="countdown4_53" class="item-countdown" data-date="2024-12-31"></div>
-									</div>
-
-									<div class="rating"> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> </div>
-
-									<div class="button-group">
-										<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('53')">
-
-											<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-											</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-										<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('53');"><i class="icofont-heart"></i>
-											<span title="Add to Wish List">Add to Wish List</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-										<button class="btn-compare" title="Add to compare" onclick="compare.add('53');"><i class="icofont-signal"></i>
-											<span title="Add to compare">Add to compare</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-										<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index5adf.html?route=product/product&amp;product_id=53')"><i class="icofont-eye-alt"></i>
-											<span title="Quick view">Quick view</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-									</div>
-								</div>
-								<div class="thumb-description">
-									<div class="caption">
-										<h4><a href="index5adf.html?route=product/product&amp;product_id=53">Kaccha Aam Tangy Jam</a></h4>
-
-										<div class="price"> <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>
-											<span class="price-tax">Ex Tax: $90.00</span>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-						<div class="product-layouts">
-							<div class="product-thumb transition">
-								<div class="image"> <a href="indexbb02.html?route=product/product&amp;product_id=42"> <img class="image_thumb" src="image/cache/catalog/demo/product/01-330x432.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" /> <img class="image_thumb_swap" src="image/cache/catalog/demo/product/01-02-330x432.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" /> </a>
-									<div class="sale-icon">Sale</div>
-									<span class="percent">-10%</span>
-									<div class="product-countdown">
-										<div id="countdown4_42" class="item-countdown" data-date="2024-12-31"></div>
-									</div>
-
-									<div class="rating"> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star checked"><i class="icofont-star"></i></span> <span class="rating-star"><i class="icofont-star"></i></span> </div>
-
-									<div class="button-group">
-										<button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('42')">
-
-											<i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-											</span><span class="loading"><i class="icofont-refresh"></i></span></button>
-										<button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('42');"><i class="icofont-heart"></i>
-											<span title="Add to Wish List">Add to Wish List</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-										<button class="btn-compare" title="Add to compare" onclick="compare.add('42');"><i class="icofont-signal"></i>
-											<span title="Add to compare">Add to compare</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-										<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexbb02.html?route=product/product&amp;product_id=42')"><i class="icofont-eye-alt"></i>
-											<span title="Quick view">Quick view</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-									</div>
-								</div>
-								<div class="thumb-description">
-									<div class="caption">
-										<h4><a href="indexbb02.html?route=product/product&amp;product_id=42">Kissan Pineapple Jam</a></h4>
-
-										<div class="price"> <span class="price-new">$110.00</span> <span class="price-old">$122.00</span>
-											<span class="price-tax">Ex Tax: $90.00</span>
-										</div>
-
-									</div>
-								</div>
-							</div>
-						</div>
-
 					</div>
 				</div>
 			</div>
@@ -1440,7 +523,6 @@
 		<div class="container">
 			<div class="TB-Commen-Heading">
 				<h3>
-					<!--<a class="tbblock-heading" href="https://templatebunch.com/Opencart/OPC005/OPCTB49/OPC01/index.php?route=information/tb_blog/blogs">Blog</a>-->
 					Blog
 				</h3>
 			</div>
@@ -1456,7 +538,7 @@
 							<li>
 								<div class="blog-content">
 									<div class="tbhomeblog_image_holder blog_image_holder">
-										<a href="index4379.html?route=information/tb_blog&amp;tb_blog_id=5">
+										<a href="#">
 											<img class="image_thumb" src="image/cache/catalog/demo/banners/blog-05-870x576.jpg" alt="Blog" title="Blog" />
 											<div class="tb-black-shadow"></div>
 										</a>
@@ -1474,11 +556,11 @@
 												<span class="date">18</span>
 												<span class="month">Aug-2022</span>
 											</span>
-											<h5 class="post_title"><a href="index4379.html?route=information/tb_blog&amp;tb_blog_id=5">Nam liber tempor cum</a></h5>
+											<h5 class="post_title"><a href="#">Nam liber tempor cum</a></h5>
 											<p class="blog-description"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequa...</p>
 											<div class="tb-blog-bottom">
-												<a href="index4379.html?route=information/tb_blog&amp;tb_blog_id=5" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
-												<div class="comment"> <a href="index4379.html?route=information/tb_blog&amp;tb_blog_id=5"> <i class="icofont-comment"></i> 0 Comments</a> </div>
+												<a href="#" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
+												<div class="comment"> <a href="#"> <i class="icofont-comment"></i> 0 Comments</a> </div>
 											</div>
 										</div>
 									</div>
@@ -1487,7 +569,7 @@
 							<li>
 								<div class="blog-content">
 									<div class="tbhomeblog_image_holder blog_image_holder">
-										<a href="indexcf1a.html?route=information/tb_blog&amp;tb_blog_id=4">
+										<a href="#">
 											<img class="image_thumb" src="image/cache/catalog/demo/banners/blog-04-870x576.jpg" alt="Blog" title="Blog" />
 											<div class="tb-black-shadow"></div>
 										</a>
@@ -1505,12 +587,12 @@
 												<span class="date">18</span>
 												<span class="month">Aug-2022</span>
 											</span>
-											<h5 class="post_title"><a href="indexcf1a.html?route=information/tb_blog&amp;tb_blog_id=4">Tincidunt ut laoreet dolore</a></h5>
+											<h5 class="post_title"><a href="#">Tincidunt ut laoreet dolore</a></h5>
 											<p class="blog-description"> Mirum est notare quam littera gothica, quam putamus parum claram aliquam volutpat.
 												...</p>
 											<div class="tb-blog-bottom">
-												<a href="indexcf1a.html?route=information/tb_blog&amp;tb_blog_id=4" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
-												<div class="comment"> <a href="indexcf1a.html?route=information/tb_blog&amp;tb_blog_id=4"> <i class="icofont-comment"></i> 0 Comments</a> </div>
+												<a href="#" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
+												<div class="comment"> <a href="#"> <i class="icofont-comment"></i> 0 Comments</a> </div>
 											</div>
 										</div>
 									</div>
@@ -1519,7 +601,7 @@
 							<li>
 								<div class="blog-content">
 									<div class="tbhomeblog_image_holder blog_image_holder">
-										<a href="indexe755.html?route=information/tb_blog&amp;tb_blog_id=3">
+										<a href="#">
 											<img class="image_thumb" src="image/cache/catalog/demo/banners/blog-03-870x576.jpg" alt="Blog" title="Blog" />
 											<div class="tb-black-shadow"></div>
 										</a>
@@ -1537,12 +619,12 @@
 												<span class="date">18</span>
 												<span class="month">Aug-2022</span>
 											</span>
-											<h5 class="post_title"><a href="indexe755.html?route=information/tb_blog&amp;tb_blog_id=3">Magna aliquam volutpat</a></h5>
+											<h5 class="post_title"><a href="#">Magna aliquam volutpat</a></h5>
 											<p class="blog-description"> Typi non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem.
 												...</p>
 											<div class="tb-blog-bottom">
-												<a href="indexe755.html?route=information/tb_blog&amp;tb_blog_id=3" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
-												<div class="comment"> <a href="indexe755.html?route=information/tb_blog&amp;tb_blog_id=3"> <i class="icofont-comment"></i> 0 Comments</a> </div>
+												<a href="#" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
+												<div class="comment"> <a href="#"> <i class="icofont-comment"></i> 0 Comments</a> </div>
 											</div>
 										</div>
 									</div>
@@ -1551,7 +633,7 @@
 							<li>
 								<div class="blog-content">
 									<div class="tbhomeblog_image_holder blog_image_holder">
-										<a href="index9952.html?route=information/tb_blog&amp;tb_blog_id=2">
+										<a href="#">
 											<img class="image_thumb" src="image/cache/catalog/demo/banners/blog-02-870x576.jpg" alt="Blog" title="Blog" />
 											<div class="tb-black-shadow"></div>
 										</a>
@@ -1569,12 +651,12 @@
 												<span class="date">18</span>
 												<span class="month">Aug-2022</span>
 											</span>
-											<h5 class="post_title"><a href="index9952.html?route=information/tb_blog&amp;tb_blog_id=2">Eodem modo typi qui nunc</a></h5>
+											<h5 class="post_title"><a href="#">Eodem modo typi qui nunc</a></h5>
 											<p class="blog-description"> Sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 												...</p>
 											<div class="tb-blog-bottom">
-												<a href="index9952.html?route=information/tb_blog&amp;tb_blog_id=2" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
-												<div class="comment"> <a href="index9952.html?route=information/tb_blog&amp;tb_blog_id=2"> <i class="icofont-comment"></i> 0 Comments</a> </div>
+												<a href="i#" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
+												<div class="comment"> <a href="#"> <i class="icofont-comment"></i> 0 Comments</a> </div>
 											</div>
 										</div>
 									</div>
@@ -1583,7 +665,7 @@
 							<li>
 								<div class="blog-content">
 									<div class="tbhomeblog_image_holder blog_image_holder">
-										<a href="index9301.html?route=information/tb_blog&amp;tb_blog_id=1">
+										<a href="#">
 											<img class="image_thumb" src="image/cache/catalog/demo/banners/blog-01-870x576.jpg" alt="Blog" title="Blog" />
 											<div class="tb-black-shadow"></div>
 										</a>
@@ -1601,12 +683,12 @@
 												<span class="date">18</span>
 												<span class="month">Aug-2022</span>
 											</span>
-											<h5 class="post_title"><a href="index9301.html?route=information/tb_blog&amp;tb_blog_id=1">Ut aliquip commodo </a></h5>
+											<h5 class="post_title"><a href="#">Ut aliquip commodo </a></h5>
 											<p class="blog-description"> Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat.
 												...</p>
 											<div class="tb-blog-bottom">
-												<a href="index9301.html?route=information/tb_blog&amp;tb_blog_id=1" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
-												<div class="comment"> <a href="index9301.html?route=information/tb_blog&amp;tb_blog_id=1"> <i class="icofont-comment"></i> 0 Comments</a> </div>
+												<a href="#" class="read-more btn-primary">Read More <i class="icofont-simple-right"></i></a>
+												<div class="comment"> <a href="#"> <i class="icofont-comment"></i> 0 Comments</a> </div>
 											</div>
 										</div>
 									</div>
@@ -1614,44 +696,6 @@
 							</li>
 
 						</ul>
-					</div>
-				</div>
-			</div>
-		</div>
-	</div>
-	<div id="tb-manufacture" class="carousel wow fadeInLeft" data-wow-delay="0.3s">
-		<div class="container">
-			<div class="swiper-viewport">
-				<div id="carousel0" class="swiper-container brand-items">
-					<div class="swiper-wrapper">
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-01-220x80.png" alt="brand-logo-01" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-02-220x80.png" alt="brand-logo-02" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-03-220x80.png" alt="brand-logo-03" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-04-220x80.png" alt="brand-logo-04" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-05-220x80.png" alt="brand-logo-05" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-06-220x80.png" alt="brand-logo-06" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
-						<div class="swiper-slide text-center">
-							<a href="#URL"><img src="image/cache/catalog/demo/manufacturer/brand-logo-07-220x80.png" alt="brand-logo-07" class="img-responsive" /></a>
-							<div class="brand-description"></div>
-						</div>
 					</div>
 				</div>
 			</div>
@@ -1882,72 +926,71 @@
 	</div>
 
 	<script>
-		<!--
 		var tb_live_search = {
 			selector: '#search input[name=\'search\']',
-			text_no_matches: '',
+			text_no_matches: 'There are no products to list in this category.',
 			height: '50px'
-		}
+		};
 
 		$(document).ready(function() {
 			var html = '';
 			html += '<div class="live-search">';
-			html += '	<ul>';
-			html += '	</ul>';
+			html += '  <ul>';
+			html += '  </ul>';
 			html += '<div class="result-text"></div>';
 			html += '</div>';
 
-			//$(tb_live_search.selector).parent().closest('div').after(html);
 			$(tb_live_search.selector).after(html);
 
 			$(tb_live_search.selector).autocomplete({
 				'source': function(request, response) {
 					var filter_name = $(tb_live_search.selector).val();
-					var cat_id = 0;
-					var module_tb_live_search_min_length = '1';
+					var module_tb_live_search_min_length = 1;
+
 					if (filter_name.length < module_tb_live_search_min_length) {
 						$('.live-search').css('display', 'none');
 					} else {
 						var html = '';
 						html += '<li style="text-align: center;height:10px;">';
-						html += '<img class="loading" src="image/catalog/demo/banners/loading.gif" />';
+						html += '<img class="loading" src="{{ Storage::url($product->main_image) }}" />';
 						html += '</li>';
 						$('.live-search ul').html(html);
 						$('.live-search').css('display', 'block');
 
 						$.ajax({
-							url: 'index.php?route=extension/module/tb_live_search&filter_name=' + encodeURIComponent(filter_name),
+							url: '/live-search',
+							data: {
+								filter_name: filter_name
+							},
 							dataType: 'json',
 							success: function(result) {
 								var products = result.products;
 								$('.live-search ul li').remove();
 								$('.result-text').html('');
-								if (!$.isEmptyObject(products)) {
-									var show_image = 1;
-									var show_price = 1;
-									var show_description = 1;
-									$('.result-text').html('<a href="https://templatebunch.com/Opencart/OPC005/OPCTB49/OPC01/index.php?route=product/search&amp;search=' + filter_name + '" class="view-all-results">  View all results   (' + result.total + ')</a>');
+
+								if (products.length > 0) {
+									var show_image = true;
+									var show_price = true;
+									var show_description = true;
+
+									$('.result-text').html('<a href="/search?query=' + filter_name + '" class="view-all-results">View all results (' + products.length + ')</a>');
 
 									$.each(products, function(index, product) {
 										var html = '';
 
 										html += '<li>';
-										html += '<a href="' + product.url + '" title="' + product.name + '">';
+										html += '<a href="/product/' + product.id + '" title="' + product.name + '">';
 										if (product.image && show_image) {
-											html += '	<div class="product-image col-sm-4"><img alt="' + product.name + '" src="' + product.image + '"></div>';
+											html += '  <div class="product-image col-sm-4"><img alt="' + product.name + '" src="' + product.image + '"></div>';
 										}
 										html += '<div class="search-description col-sm-8 col-xs-8">';
-										html += '	<div class="product-name">' + product.name;
+										html += '  <div class="product-name">' + product.name;
 										if (show_description) {
-											html += '<p>' + product.extra_info + '</p>';
+											html += '<p>' + (product.description ? product.description : '') + '</p>';
 										}
 										html += '</div>';
 										if (show_price) {
-											if (product.special) {
-												html += '	<div class="product-price"><span class="price">' + product.special + '</span><span class="special">' + product.price + '</span></div>';
-											} else {
-												html += '	<div class="product-price"><span class="price">' + product.price + '</span></div>';
-											}
+											html += '  <div class="product-price"><span class="price">' + product.price + '</span></div>';
 										}
 										html += '</div>';
 										html += '<span style="clear:both"></span>';
@@ -1964,7 +1007,9 @@
 									$('.live-search ul').html(html);
 								}
 								$('.live-search').css('display', 'block');
-								return false;
+							},
+							error: function(xhr, status, error) {
+								console.error('Error loading products:', error);
 							}
 						});
 					}
@@ -1981,129 +1026,8 @@
 				}
 			});
 		});
-		//
-		-->
+
 	</script>
-
-	<!-- <script type="text/javascript">
-		$(".add_card").click(function(e) {
-			e.preventDefault();
-
-			var ele = $(this);
-			var productId = ele.data('product-id');
-
-			$.ajax({
-				url: `/cart/add/${productId}`,
-				method: "POST",
-				data: {
-					_token: '{{ csrf_token() }}',
-				},
-				success: function(response) {
-					if (response.success) {
-						alert('Produit ajouté au panier avec succès');
-						updateCart(response.cart);
-					}
-				},
-				error: function(xhr) {
-					alert('Erreur lors de l\'ajout au panier');
-				}
-			});
-		});
-
-		function updateCart(cart) {
-			var cartHtml = '';
-			var total = 0;
-
-			if ($.isEmptyObject(cart)) {
-				cartHtml = '<ul class="dropdown-menu pull-right header-cart-toggle"><p class="text-center">Your shopping cart is empty!</p></li>';
-			} else {
-				$.each(cart, function(id, item) {
-					cartHtml += '<li class="cart-product" data-product-id="' + id + '">';
-					cartHtml += '<table class="table table-striped">';
-					cartHtml += '<tr>';
-					cartHtml += '<td class="text-center image"><a href="#"><img src="/storage/' + item.main_image + '" /></a></td>';
-					cartHtml += '<td class="text-left name"><a href="#">' + item.name + '</a></td>';
-					cartHtml += '<td class="text-right">x ' + item.quantity + '</td>';
-					cartHtml += '<td class="text-right amount">$' + (item.price * item.quantity) + '</td>';
-					cartHtml += '<td class="text-center button"><button type="button" class="remove_card" style="background:none; border:none" data-product-id="' + id + '" title="Remove" class="btn btn-danger btn-xs"><i class="icofont-close"></i></button></td>';
-					cartHtml += '</tr>';
-					cartHtml += '</table>';
-					cartHtml += '</li>';
-
-					total += item.price * item.quantity;
-				});
-
-				cartHtml += '<li id="cart-total-section"><div><table class="table table-bordered">';
-				cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
-				cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
-				cartHtml += '</tr></table>';
-				cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
-				cartHtml += '</div></li>';
-			}
-
-			$('#cart-items').html(cartHtml);
-			$('#cart-total').text(Object.keys(cart).length);
-		};
-
-		$(document).on('click', '.remove_card', function(e) {
-			e.preventDefault();
-
-			var ele = $(this);
-			var productId = ele.data('product-id');
-
-			$.ajax({
-				url: `/cart/remove/${productId}`,
-				method: "POST",
-				data: {
-					_token: '{{ csrf_token() }}',
-				},
-				success: function(response) {
-					if (response.success) {
-						alert(response.success);
-						updateCart(response.cart);
-					}
-				},
-				error: function(xhr) {
-					alert('Erreur lors de la suppression du produit du panier');
-				}
-			});
-		});
-
-		function updateCart(cart) {
-			var cartHtml = '';
-			var total = 0;
-
-			if ($.isEmptyObject(cart)) {
-				cartHtml = '<li><p class="text-center">Your shopping cart is empty!</p></li>';
-			} else {
-				$.each(cart, function(id, item) {
-					cartHtml += '<li class="cart-product" data-product-id="' + id + '">';
-					cartHtml += '<table class="table table-striped">';
-					cartHtml += '<tr>';
-					cartHtml += '<td class="text-center image"><a href="#"><img src="/storage/' + item.main_image + '" /></a></td>';
-					cartHtml += '<td class="text-left name"><a href="#">' + item.name + '</a></td>';
-					cartHtml += '<td class="text-right">x ' + item.quantity + '</td>';
-					cartHtml += '<td class="text-right amount">$' + (item.price * item.quantity) + '</td>';
-					cartHtml += '<td class="text-center button"><button type="button" class="remove_card" style="background:none; border:none" data-product-id="' + id + '" title="Remove" class="btn btn-danger btn-xs"><i class="icofont-close"></i></button></td>';
-					cartHtml += '</tr>';
-					cartHtml += '</table>';
-					cartHtml += '</li>';
-
-					total += item.price * item.quantity;
-				});
-
-				cartHtml += '<li id="cart-total-section"><div><table class="table table-bordered">';
-				cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
-				cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
-				cartHtml += '</tr></table>';
-				cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
-				cartHtml += '</div></li>';
-			}
-
-			$('#cart-items').html(cartHtml);
-			$('#cart-total').text(Object.keys(cart).length);
-		}
-	</script> -->
 
 	<script>
 		$(document).ready(function() {
@@ -2123,7 +1047,7 @@
 					},
 					success: function(response) {
 						if (response.success) {
-							alert(response.success);
+						
 							updateCart(response.cart);
 						}
 					},
@@ -2147,7 +1071,6 @@
 					},
 					success: function(response) {
 						if (response.success) {
-							alert(response.success);
 							updateCart(response.cart);
 						}
 					},
@@ -2171,7 +1094,6 @@
 					},
 					success: function(response) {
 						if (response.success) {
-							alert('Produit ajouté au panier avec succès');
 							updateCart(response.cart);
 						}
 					},

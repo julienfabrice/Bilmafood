@@ -4,7 +4,7 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
-        <title>Login - Ecom TogetTech</title>
+        <title>Connexion Bilmafood</title>
 
         <!-- Favicon -->
         <link rel="shortcut icon" href="../assets/images/logo.png"/>
@@ -65,7 +65,7 @@
                             </div>
                             <div>
                                 <h3 class="fw-bold">Welcome to Bilmafood Admin Dashboard !</h3>
-                                <p class="lead my-5">Si vous n'avez pas de compte, souhaitez-vous vous inscrire dès maintenant ?</p>
+                                <!-- <p class="lead my-5">Si vous n'avez pas de compte, souhaitez-vous vous inscrire dès maintenant ?</p> -->
                                 <!-- <a href="#" class="btn btn-primary">S'inscrire</a> -->
                             </div>
                             <ul class="list-inline">

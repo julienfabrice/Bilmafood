@@ -29,6 +29,7 @@ Route::get('/products', [ProductController::class, 'index'])->name('products.ind
 Route::get('/category', [CategoryController::class, 'index'])->name('category.index');
 Route::get('/contactus', [ContactController::class, 'index'])->name('contact.index');
 Route::get('/product/detail/{product}', [ProductController::class, 'productDetails'])->name('product.productDetail');
+Route::get('/live-search', [ProductController::class, 'liveSearch']);
 
 Route::get('/society',[SocietyController::class,'index'])->name('society.index');
 Route::get('/quality',[QualityController::class,'index'])->name('quality.index');
@@ -52,7 +53,8 @@ Route::post('register', [RegisterController::class, 'registerClient'])->name('cl
 Route::middleware(['auth:client'])->group(function () {
     Route::get('/account', [AccountController::class, 'index'])->name('account.index');
     Route::post('/order/create', [OrderController::class, 'createOrder'])->name('order.create');
-    Route::get('/order/success/{order}', [OrderController::class, 'orderSuccess'])->name('order.success'); 
+    Route::get('/order/success/{order}', [OrderController::class, 'orderSuccess'])->name('order.success');
+    Route::get('/orders', [OrderController::class, 'showOrders'])->name('ordersHistory.index'); 
 });
 
 // Admin Routes
@@ -87,6 +89,6 @@ Route::post('/cart/add/{id}', [CartController::class, 'addToCart'])->name('cart.
 Route::post('/cart/remove/{id}', [CartController::class, 'removeFromCart'])->name('cart.remove');
 Route::post('/cart/update/{id}', [CartController::class, 'updateCart'])->name('cart.update');
 
-
+Route::get('/category/products/{id}', [AppController::class, 'getProductsByCategory']);
 
 

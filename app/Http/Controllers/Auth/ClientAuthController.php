@@ -3,7 +3,7 @@
 // App\Http\Controllers\Auth\ClientAuthController.php
 
 namespace App\Http\Controllers\Auth;
-
+use App\Models\Product;
 use App\Http\Controllers\Controller;
 use Illuminate\Http\Request;
 use Illuminate\Support\Facades\Auth;
@@ -16,7 +16,8 @@ class ClientAuthController extends Controller
 {
     public function showLoginForm()
     {
-        return view('auth.client-login');
+        $products = Product::all();
+        return view('auth.client-login', compact('products'));
     }
 
     public function login(Request $request)

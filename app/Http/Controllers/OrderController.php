@@ -5,17 +5,25 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Order;
 use App\Models\OrderDetail;
-use App\Models\Product;
 use Illuminate\Support\Facades\Auth;
 
 class OrderController extends Controller
-
 {
+    public function showOrders()
+    {
+        $orders = Order::where('user_id', Auth::id())
+            ->with('user', 'orderDetails')
+            ->get();
+
+        return view('ordersHistory', compact('orders'));
+    }
+
     public function createOrder(Request $request)
     {
         if (!Auth::check()) {
             return redirect()->route('login')->with('error', 'Vous devez être connecté pour passer une commande.');
         }
+
         $cart = session()->get('cart', []);
 
         if (empty($cart)) {
@@ -51,7 +59,7 @@ class OrderController extends Controller
 
         session()->forget('cart');
 
-        return redirect()->route('order.success', ['order' => $order->id])->with('success', 'Commande passée avec succès.');
+        return redirect()->route('app.index')->with('success', 'Commande passée avec succès.');
     }
 
     public function orderSuccess($orderId)
@@ -60,4 +68,3 @@ class OrderController extends Controller
         return view('order.success', compact('order'));
     }
 }
-

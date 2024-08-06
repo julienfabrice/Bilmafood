@@ -84,8 +84,8 @@
     </script>
 
 
-    <link href="index33b9.html?route=product/category&amp;path=81" rel="canonical" />
-    <link href="indexd17f.html?route=product/category&amp;path=81&amp;page=2" rel="next" />
+    <link href="#" rel="canonical" />
+    <link href="#" rel="next" />
     <link href="image/catalog/cart.png" rel="icon" />
 
     <script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
@@ -301,7 +301,7 @@
                                 <div class="box-content">
                                     <div id="TB-Footer-cms" class="links">
                                         <div class="tb-footer-logo">
-                                            <a href="index9328.html?route=common/home">
+                                            <a href="#">
                                                 <img src="image/catalog/logo.png" alt="footer-logo">
                                             </a>
                                         </div>
@@ -381,109 +381,6 @@
     </footer>
     </div>
 
-    <script>
-        <!--
-        var tb_live_search = {
-            selector: '#search input[name=\'search\']',
-            text_no_matches: 'There are no products to list in this category.',
-            height: '50px'
-        }
-
-        $(document).ready(function() {
-            var html = '';
-            html += '<div class="live-search">';
-            html += '	<ul>';
-            html += '	</ul>';
-            html += '<div class="result-text"></div>';
-            html += '</div>';
-
-            //$(tb_live_search.selector).parent().closest('div').after(html);
-            $(tb_live_search.selector).after(html);
-
-            $(tb_live_search.selector).autocomplete({
-                'source': function(request, response) {
-                    var filter_name = $(tb_live_search.selector).val();
-                    var cat_id = 0;
-                    var module_tb_live_search_min_length = '1';
-                    if (filter_name.length < module_tb_live_search_min_length) {
-                        $('.live-search').css('display', 'none');
-                    } else {
-                        var html = '';
-                        html += '<li style="text-align: center;height:10px;">';
-                        html += '<img class="loading" src="image/catalog/demo/banners/loading.gif" />';
-                        html += '</li>';
-                        $('.live-search ul').html(html);
-                        $('.live-search').css('display', 'block');
-
-                        $.ajax({
-                            url: 'index.php?route=extension/module/tb_live_search&filter_name=' + encodeURIComponent(filter_name),
-                            dataType: 'json',
-                            success: function(result) {
-                                var products = result.products;
-                                $('.live-search ul li').remove();
-                                $('.result-text').html('');
-                                if (!$.isEmptyObject(products)) {
-                                    var show_image = 1;
-                                    var show_price = 1;
-                                    var show_description = 1;
-                                    $('.result-text').html('<a href="https://templatebunch.com/Opencart/OPC005/OPCTB49/OPC01/index.php?route=product/search&amp;search=' + filter_name + '" class="view-all-results">  View all results   (' + result.total + ')</a>');
-
-                                    $.each(products, function(index, product) {
-                                        var html = '';
-
-                                        html += '<li>';
-                                        html += '<a href="' + product.url + '" title="' + product.name + '">';
-                                        if (product.image && show_image) {
-                                            html += '	<div class="product-image col-sm-4"><img alt="' + product.name + '" src="' + product.image + '"></div>';
-                                        }
-                                        html += '<div class="search-description col-sm-8 col-xs-8">';
-                                        html += '	<div class="product-name">' + product.name;
-                                        if (show_description) {
-                                            html += '<p>' + product.extra_info + '</p>';
-                                        }
-                                        html += '</div>';
-                                        if (show_price) {
-                                            if (product.special) {
-                                                html += '	<div class="product-price"><span class="price">' + product.special + '</span><span class="special">' + product.price + '</span></div>';
-                                            } else {
-                                                html += '	<div class="product-price"><span class="price">' + product.price + '</span></div>';
-                                            }
-                                        }
-                                        html += '</div>';
-                                        html += '<span style="clear:both"></span>';
-                                        html += '</a>';
-                                        html += '</li>';
-                                        $('.live-search ul').append(html);
-                                    });
-                                } else {
-                                    var html = '';
-                                    html += '<li style="text-align: center;height:10px;">';
-                                    html += tb_live_search.text_no_matches;
-                                    html += '</li>';
-
-                                    $('.live-search ul').html(html);
-                                }
-                                $('.live-search').css('display', 'block');
-                                return false;
-                            }
-                        });
-                    }
-                },
-                'select': function(product) {
-                    $(tb_live_search.selector).val(product.name);
-                }
-            });
-
-            $(document).bind("mouseup touchend", function(e) {
-                var container = $('.live-search');
-                if (!container.is(e.target) && container.has(e.target).length === 0) {
-                    container.hide();
-                }
-            });
-        });
-        //
-        -->
-    </script>
     <script type="text/javascript">
 		$(document).ready(function() {
             $(document).on('click', '.update-quantity', function(e) {
@@ -501,7 +398,6 @@
                     },
                     success: function(response) {
                         if (response.success) {
-                            alert(response.success);
                             updateCart(response.cart);
                             location.reload();
                         }
@@ -526,7 +422,6 @@
                     },
                     success: function(response) {
                         if (response.success) {
-                            alert(response.success);
                             updateCart(response.cart);
                             location.reload();
                         }
@@ -551,7 +446,6 @@
                     },
                     success: function(response) {
                         if (response.success) {
-                            alert('Produit ajouté au panier avec succès');
                             updateCart(response.cart);
                         }
                     },

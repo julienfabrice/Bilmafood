@@ -1,12 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Models\Product;
 use Illuminate\Http\Request;
 
 class JamController extends Controller
 {
     public function index(){
-        return view('jam');
+        $products = Product::all();
+        return view('jam', compact('products'));
     }
 }

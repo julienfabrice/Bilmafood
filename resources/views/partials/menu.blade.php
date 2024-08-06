@@ -60,7 +60,7 @@
                 <li class="menu-divider">Pages</li>
 
                 
-                <li>
+                <!-- <li>
                     <a href="#">
                         <span class="nav-link-icon">
                             <i class="bi bi-person-circle"></i>
@@ -75,7 +75,7 @@
                             <a  href="./fournisseur-add.php">Nouveau fournisseur</a>
                         </li>
                     </ul>
-                </li>
+                </li> -->
 
                 <li class="menu-divider">Other</li>
                 

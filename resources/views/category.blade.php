@@ -84,8 +84,8 @@
   </script>
 
 
-  <link href="index33b9.html?route=product/category&amp;path=81" rel="canonical" />
-  <link href="indexd17f.html?route=product/category&amp;path=81&amp;page=2" rel="next" />
+  <link href="#" rel="canonical" />
+  <link href="#" rel="next" />
   <link href="image/catalog/cart.png" rel="icon" />
 
   <script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
@@ -104,7 +104,7 @@
     <div id="product-category" class="container product-category">
       <ul class="breadcrumb">
         <li><a href="{{ route('app.index') }}"><i class="icofont-home"></i></a></li>
-        <li><a href="index1812.html?route=product/category&amp;path=65_81">Category</a></li>
+        <li><a href="#">Category</a></li>
       </ul>
       <div class="row">
         <aside id="column-left" class="col-lg-3 hidden-xs">
@@ -113,19 +113,19 @@
               <div class="panel-heading">Categories</div>
               <ul class="list-group">
                 <li class="category-li">
-                  <a href="indexef1f.html?route=product/category&amp;path=106" class="list-group-item">Fruit (6)</a>
+                  <a href="#" class="list-group-item">Fruit (6)</a>
                   <!-- Display all category - child items list -->
                 </li>
                 <li class="category-li">
-                  <a href="index8fdd.html?route=product/category&amp;path=107" class="list-group-item">Mixed (5)</a>
+                  <a href="#" class="list-group-item">Mixed (5)</a>
                   <!-- Display all category - child items list -->
                 </li>
                 <li class="category-li">
-                  <a href="index6067.html?route=product/category&amp;path=60" class="list-group-item">Flavor (18)</a>
+                  <a href="#" class="list-group-item">Flavor (18)</a>
                   <!-- Display all category - child items list -->
                 </li>
                 <li class="category-li">
-                  <a href="index76bc.html?route=product/category&amp;path=61" class="list-group-item">Default (20)</a>
+                  <a href="#" class="list-group-item">Default (20)</a>
                   <!-- Display all category - child items list -->
                 </li>
               </ul>
@@ -165,7 +165,7 @@
                   <div class="product-layouts">
                     <div class="product-thumb transition">
                       <div class="image">
-                        <a href="indexb8ca.html?route=product/product&amp;product_id=43">
+                        <a href="#">
                           <img class="image_thumb" src="image/cache/catalog/demo/product/11-70x92.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
                           <img class="image_thumb_swap" src="image/cache/catalog/demo/product/11-02-70x92.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
                         </a>
@@ -182,7 +182,7 @@
                             <span title="Add to compare">Add to compare</span>
                             <span class="loading"><i class="icofont-refresh"></i></span>
                           </button>
-                          <button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexb8ca.html?route=product/product&amp;product_id=43')"><i class="icofont-eye-alt"></i>
+                          <button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('')"><i class="icofont-eye-alt"></i>
                             <span title="Quick view">Quick view</span>
                             <span class="loading"><i class="icofont-refresh"></i></span>
                           </button>
@@ -191,7 +191,7 @@
                       </div>
                       <div class="thumb-description">
                         <div class="caption">
-                          <h4><a href="indexb8ca.html?route=product/product&amp;product_id=43">Natural Jam Bitter Orange</a></h4>
+                          <h4><a href="#">Natural Jam Bitter Orange</a></h4>
                           <div class="price">
                             $602.00
 

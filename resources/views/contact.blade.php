@@ -343,108 +343,222 @@ Fayetteville, California.
 	    </footer>
 </div>
 
-			<script><!--
-				var tb_live_search = {
-					selector: '#search input[name=\'search\']',
-					text_no_matches: '',
-					height: '50px'
+<script>
+		var tb_live_search = {
+			selector: '#search input[name=\'search\']',
+			text_no_matches: 'There are no products to list in this category.',
+			height: '50px'
+		};
+
+		$(document).ready(function() {
+			var html = '';
+			html += '<div class="live-search">';
+			html += '  <ul>';
+			html += '  </ul>';
+			html += '<div class="result-text"></div>';
+			html += '</div>';
+
+			$(tb_live_search.selector).after(html);
+
+			$(tb_live_search.selector).autocomplete({
+				'source': function(request, response) {
+					var filter_name = $(tb_live_search.selector).val();
+					var module_tb_live_search_min_length = 1;
+
+					if (filter_name.length < module_tb_live_search_min_length) {
+						$('.live-search').css('display', 'none');
+					} else {
+						var html = '';
+						html += '<li style="text-align: center;height:10px;">';
+						html += '<img class="loading" src="{{ Storage::url($product->main_image) }}" />';
+						html += '</li>';
+						$('.live-search ul').html(html);
+						$('.live-search').css('display', 'block');
+
+						$.ajax({
+							url: '/live-search',
+							data: {
+								filter_name: filter_name
+							},
+							dataType: 'json',
+							success: function(result) {
+								var products = result.products;
+								$('.live-search ul li').remove();
+								$('.result-text').html('');
+
+								if (products.length > 0) {
+									var show_image = true;
+									var show_price = true;
+									var show_description = true;
+
+									$('.result-text').html('<a href="/search?query=' + filter_name + '" class="view-all-results">View all results (' + products.length + ')</a>');
+
+									$.each(products, function(index, product) {
+										var html = '';
+
+										html += '<li>';
+										html += '<a href="/product/' + product.id + '" title="' + product.name + '">';
+										if (product.image && show_image) {
+											html += '  <div class="product-image col-sm-4"><img alt="' + product.name + '" src="' + product.image + '"></div>';
+										}
+										html += '<div class="search-description col-sm-8 col-xs-8">';
+										html += '  <div class="product-name">' + product.name;
+										if (show_description) {
+											html += '<p>' + (product.description ? product.description : '') + '</p>';
+										}
+										html += '</div>';
+										if (show_price) {
+											html += '  <div class="product-price"><span class="price">' + product.price + '</span></div>';
+										}
+										html += '</div>';
+										html += '<span style="clear:both"></span>';
+										html += '</a>';
+										html += '</li>';
+										$('.live-search ul').append(html);
+									});
+								} else {
+									var html = '';
+									html += '<li style="text-align: center;height:10px;">';
+									html += tb_live_search.text_no_matches;
+									html += '</li>';
+
+									$('.live-search ul').html(html);
+								}
+								$('.live-search').css('display', 'block');
+							},
+							error: function(xhr, status, error) {
+								console.error('Error loading products:', error);
+							}
+						});
+					}
+				},
+				'select': function(product) {
+					$(tb_live_search.selector).val(product.name);
+				}
+			});
+
+			$(document).bind("mouseup touchend", function(e) {
+				var container = $('.live-search');
+				if (!container.is(e.target) && container.has(e.target).length === 0) {
+					container.hide();
+				}
+			});
+		});
+
+	</script>
+	<script>
+		$(document).ready(function() {
+			// Update quantity
+			$(document).on('click', '.update-quantity', function(e) {
+				e.preventDefault();
+				var ele = $(this);
+				var productId = ele.data('product-id');
+				var quantity = ele.closest('tr').find('.quantity-input').val();
+
+				$.ajax({
+					url: `/cart/update/${productId}`,
+					method: "POST",
+					data: {
+						_token: '{{ csrf_token() }}',
+						quantity: quantity
+					},
+					success: function(response) {
+						if (response.success) {
+							alert(response.success);
+							updateCart(response.cart);
+						}
+					},
+					error: function(xhr) {
+						alert('Erreur lors de la mise à jour de la quantité');
+					}
+				});
+			});
+
+			// Remove from cart
+			$(document).on('click', '.remove_card', function(e) {
+				e.preventDefault();
+				var ele = $(this);
+				var productId = ele.data('product-id');
+
+				$.ajax({
+					url: `/cart/remove/${productId}`,
+					method: "POST",
+					data: {
+						_token: '{{ csrf_token() }}',
+					},
+					success: function(response) {
+						if (response.success) {
+							alert(response.success);
+							updateCart(response.cart);
+						}
+					},
+					error: function(xhr) {
+						alert('Erreur lors de la suppression du produit du panier');
+					}
+				});
+			});
+
+			// Add to cart
+			$(".add_card").click(function(e) {
+				e.preventDefault();
+				var ele = $(this);
+				var productId = ele.data('product-id');
+
+				$.ajax({
+					url: `/cart/add/${productId}`,
+					method: "POST",
+					data: {
+						_token: '{{ csrf_token() }}',
+					},
+					success: function(response) {
+						if (response.success) {
+							alert('Produit ajouté au panier avec succès');
+							updateCart(response.cart);
+						}
+					},
+					error: function(xhr) {
+						alert('Erreur lors de l\'ajout au panier');
+					}
+				});
+			});
+
+			function updateCart(cart) {
+				var cartHtml = '';
+				var total = 0;
+
+				if ($.isEmptyObject(cart)) {
+					cartHtml = '<li><p class="text-center">Your shopping cart is empty!</p></li>';
+				} else {
+					$.each(cart, function(id, item) {
+						cartHtml += '<li class="cart-product" data-product-id="' + id + '">';
+						cartHtml += '<table class="table table-striped">';
+						cartHtml += '<tr>';
+						cartHtml += '<td class="text-center image"><a href="#"><img src="/storage/' + item.main_image + '" /></a></td>';
+						cartHtml += '<td class="text-left name"><a href="#">' + item.name + '</a></td>';
+						cartHtml += '<td class="text-right">x ' + item.quantity + '</td>';
+						cartHtml += '<td class="text-right amount">$' + (item.price * item.quantity) + '</td>';
+						cartHtml += '<td class="text-center button"><button type="button" class="remove_card" style="background:none; border:none" data-product-id="' + id + '" title="Remove" class="btn btn-danger btn-xs"><i class="icofont-close"></i></button></td>';
+						cartHtml += '</tr>';
+						cartHtml += '</table>';
+						cartHtml += '</li>';
+
+						total += item.price * item.quantity;
+					});
+
+					cartHtml += '<li id="cart-total-section"><div><table class="table table-bordered">';
+					cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
+					cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
+					cartHtml += '</tr></table>';
+					cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
+					cartHtml += '</div></li>';
 				}
 
-				$(document).ready(function() {
-					var html = '';
-					html += '<div class="live-search">';
-					html += '	<ul>';
-					html += '	</ul>';
-					html += '<div class="result-text"></div>';
-					html += '</div>';
+				$('#cart-items').html(cartHtml);
+				$('#cart-total').text(Object.keys(cart).length);
+			}
+		});
 
-					//$(tb_live_search.selector).parent().closest('div').after(html);
-					$(tb_live_search.selector).after(html);
-
-					$(tb_live_search.selector).autocomplete({
-						'source': function(request, response) {
-							var filter_name = $(tb_live_search.selector).val();
-							var cat_id = 0;
-							var module_tb_live_search_min_length = '1';
-							if (filter_name.length < module_tb_live_search_min_length) {
-								$('.live-search').css('display','none');
-							}
-							else{
-								var html = '';
-								html += '<li style="text-align: center;height:10px;">';
-								html +=	'<img class="loading" src="image/catalog/demo/banners/loading.gif" />';
-								html +=	'</li>';
-								$('.live-search ul').html(html);
-								$('.live-search').css('display','block');
-
-								$.ajax({
-									url: 'index.php?route=extension/module/tb_live_search&filter_name=' +  encodeURIComponent(filter_name),
-									dataType: 'json',
-									success: function(result) {
-										var products = result.products;
-										$('.live-search ul li').remove();
-										$('.result-text').html('');
-										if (!$.isEmptyObject(products)) {
-											var show_image = 1;
-											var show_price = 1;
-											var show_description = 1;
-											$('.result-text').html('<a href="https://templatebunch.com/Opencart/OPC005/OPCTB49/OPC01/index.php?route=product/search&amp;search='+filter_name+'" class="view-all-results">  View all results   ('+result.total+')</a>');
-
-											$.each(products, function(index,product) {
-												var html = '';
-
-												html += '<li>';
-												html += '<a href="' + product.url + '" title="' + product.name + '">';
-												if(product.image && show_image){
-													html += '	<div class="product-image col-sm-4"><img alt="' + product.name + '" src="' + product.image + '"></div>';
-												}
-												html += '<div class="search-description col-sm-8 col-xs-8">';
-												html += '	<div class="product-name">' + product.name ;
-												if(show_description){
-													html += '<p>' + product.extra_info + '</p>';
-												}
-												html += '</div>';
-												if(show_price){
-													if (product.special) {
-														html += '	<div class="product-price"><span class="price">' + product.special + '</span><span class="special">' + product.price + '</span></div>';
-													} else {
-														html += '	<div class="product-price"><span class="price">' + product.price + '</span></div>';
-													}
-												}
-												html += '</div>';
-												html += '<span style="clear:both"></span>';
-												html += '</a>';
-												html += '</li>';
-												$('.live-search ul').append(html);
-											});
-										} else {
-											var html = '';
-											html += '<li style="text-align: center;height:10px;">';
-											html +=	tb_live_search.text_no_matches;
-											html +=	'</li>';
-
-											$('.live-search ul').html(html);
-										}
-										$('.live-search').css('display','block');
-										return false;
-									}
-								});
-							}
-						},
-						'select': function(product) {
-							$(tb_live_search.selector).val(product.name);
-						}
-					});
-
-					$(document).bind( "mouseup touchend", function(e){
-					  var container = $('.live-search');
-					  if (!container.is(e.target) && container.has(e.target).length === 0)
-					  {
-					    container.hide();
-					  }
-					});
-				});
-			//--></script>
+	</script>
 		
     <script src="catalog/language/js/language.js"></script>
     <script src="catalog/language/js/transcription.js"></script>

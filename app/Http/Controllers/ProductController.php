@@ -14,4 +14,11 @@ class ProductController extends Controller
         $products = Product::all();
         return view('details', compact('products'));
     }
+
+    public function liveSearch(Request $request)
+    {
+        $filter_name = $request->get('filter_name');
+        $products = Product::where('name', 'like', '%' . $filter_name . '%')->get();
+        return response()->json(['products' => $products]);
+    }
 }

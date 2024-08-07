@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html dir="ltr" lang="en">
+<html lang="{{ str_replace('_', '-', app()->getLocale()) }}">
 <meta http-equiv="content-type" content="text/html;charset=utf-8" />
 
 <head>
 	<meta charset="UTF-8" />
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
-	<title>Your Store</title>
+	<title>{{ __('messages.welcome') }}</title>
 	<base />
 	<meta name="description" content="My Store" />
 	<link rel="stylesheet" href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/lang.css">
@@ -84,6 +84,10 @@
 	<script src="catalog/view/javascript/TemplateBunch/default/jquery.cookie.js"></script>
 	<script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
 
+	<script src="{{ ('catalog/language/js/lang.js') }}"></script>
+	<link rel="stylesheet" href="catalog/language/css/lang.css">
+	<link rel="alternate" href="{{ route('app.index', ['locale' => 'en']) }}" hreflang="en">
+    <link rel="alternate" href="{{ route('app.index', ['locale' => 'fr']) }}" hreflang="fr">
 </head>
 
 <body class="common-home">
@@ -467,7 +471,7 @@
 						<div class="product-layouts">
 							<div class="product-thumb transition">
 								<div class="image">
-									<a href="{{ route('product.productDetail', $product->id) }}">
+									<a href="{{ route('product.productDetail', ['product' => $product->id, 'locale' => app()->getLocale()]) }}">
 										<img class="image_thumb" src="{{ Storage::url($product->main_image) }}" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
 										<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
 									</a>
@@ -861,7 +865,7 @@
 								<div class="footer-commen footer-my-account">
 									<h5>My Account</h5>
 									<ul class="list-unstyled">
-										<li><a href="{{ route('account.index') }}">My Account</a></li>
+										<li><a href="{{ route('account.index', ['locale' => app()->getLocale()]) }}">My Account</a></li>
 										<li><a href="#">Order History</a></li>
 										<li><a href="#">Wish List</a></li>
 										<li><a href="#">Newsletter</a></li>
@@ -1130,7 +1134,7 @@
 					cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
 					cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
 					cartHtml += '</tr></table>';
-					cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
+					cartHtml += '<p class="text-right"><a href="{{ route('cart', ['locale' => app()->getLocale()]) }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
 					cartHtml += '</div></li>';
 				}
 
@@ -1140,8 +1144,6 @@
 		});
 
 	</script>
-	<script src="catalog/language/js/language.js"></script>
-	<script src="catalog/language/js/transcription.js"></script>
 </body>
 
 </html>

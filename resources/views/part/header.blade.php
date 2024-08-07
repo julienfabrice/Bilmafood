@@ -1,11 +1,11 @@
-        <header>
+<header>
             <div class="header">
 	            <div class="full-header">
 	                <div class="container">
 	                    <div class="header-row">
 		                    <div class="header-left">
 			                    <div id="logo">
-                                    <a href="{{ route('app.index') }}">
+                                    <a href="{{ route('app.index', ['locale' => app()->getLocale()]) }}">
                                         <img src="image/catalog/logo.png" title="Address" alt="Address" class="img-responsive" />
                                     </a>			
                                 </div>
@@ -21,8 +21,8 @@
 			                                <div class="tb-menu horizontal-menu tb-menu-bar" id="tb-menu-8426">
                                                 <ul class="ul-top-items">
                                                     <li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="{{ route('app.index') }}">
-                                                        <span data-key="header.home">Acceuil</span>
+                                                        <a class="a-top-link" href="{{ route('app.index', ['locale' => app()->getLocale()]) }}">
+                                                        <span data-key="header.home">{{ __('messages.home') }}</span>
                                                         </a>
                                                         <!-- Mega Menu -->        
                                                         <div class="mega-menu-container sub-menu-container ">                                                                                                                                                                                                                                                        
@@ -59,9 +59,10 @@
                                                                                                                         
                                                         <!-- Flyout Menu -->
                                                     </li>
+
 													<li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="{{ route('society.index') }}">
-                                                            <span data-key="header.society">Our society</span>
+                                                        <a class="a-top-link" href="{{ route('society.index', ['locale' => app()->getLocale()]) }}">
+                                                            <span>{{ __('messages.society') }}</span>
                                                         </a>
                                                         <!-- Mega Menu -->
                                                         <!-- Flyout Menu -->                            
@@ -82,8 +83,8 @@
                                                     </li>
 													
 													<li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="{{ route('quality.index') }}">
-                                                            <span>Quality </span>
+                                                        <a class="a-top-link" href="{{ route('quality.index', ['locale' => app()->getLocale()]) }}">
+                                                            <span>{{ __('messages.quality') }} </span>
                                                         </a>
                                                         <!-- Mega Menu -->
                                                         <!-- Flyout Menu -->                            
@@ -114,83 +115,27 @@
                                                     </li>
                                                     
                                                     <li class="li-top-item ">
-                                                        <a class="a-top-link" href="{{ route('jam.index') }}">
-                                                            <span data-key="header.jam">Jam</span>
+                                                        <a class="a-top-link" href="{{ route('jam.index', ['locale' => app()->getLocale()]) }}">
+                                                            <span data-key="header.jam">{{ __('messages.jam') }}</span>
                                                         </a>
-                                                    </li>
-                                                    <!-- <li class="li-top-item ">
-                                                        <a class="a-top-link" href="{{ route('products.index') }}">
-                                                            <span data-key="header.products">Products</span>
-                                                        </a>
-                                                    </li> -->
-
-                                                    <!-- <li class="li-top-item ">
-                                                        <a class="a-top-link" href="{{ route('category.index') }}">
-                                                            <span>Category</span>
-                                                        </a>
-                                                    </li> -->
-
-                                                    <!-- <li class="li-top-item mega-menu">
-                                                        <a class="a-top-link" href="#">
-                                                            <span>Flavor </span>
-                                                        </a>
-                                                                                    
-                                                        <div class="flyout-menu-container sub-menu-container">
-                                                            <ul class="ul-second-items">
-                                                                <li class="li-second-items">
-                                                                    <a href="#" class="a-second-link a-item">
-                                                                        <span class="a-second-title">Natureland</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="li-second-items">
-                                                                    <a href="#" class="a-second-link a-item">
-                                                                        <span class="a-second-title">Organics</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="li-second-items">
-                                                                    <a href="#" class="a-second-link a-item">
-                                                                        <span class="a-second-title">Fruit butters</span>
-                                                                        <i class="icofont-simple-right"></i>
-                                                                    </a>
-                                                                    <div class="flyout-third-items">
-                                                                        <ul class="ul-third-items">
-                                                                            <li class="li-third-items">
-                                                                                <a href="#" class="a-third-link">
-                                                                                    <span class="a-third-title">blueberry</span>
-                                                                                </a>
-                                                                            </li>
-                                                                            <li class="li-third-items">
-                                                                                <a href="#" class="a-third-link"><span class="a-third-title">Marmalade</span></a>
-                                                                            </li>
-                                                                        </ul>
-                                                                    </div>
-                                                                </li>
-                                                                <li class="li-second-items">
-                                                                    <a href="#" class="a-second-link a-item">
-                                                                        <span class="a-second-title">Jelly</span>
-                                                                    </a>
-                                                                </li>
-                                                                <li class="li-second-items">
-                                                                    <a href="#" class="a-second-link a-item">
-                                                                        <span class="a-second-title">Kissan</span>
-                                                                    </a>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-                                                    </li> -->
-                        						
-                                                                            						
+                                                    </li>                   						
                                                                             						
 													<li class="li-top-item">
-														<a class="a-top-link" href="{{ route('blog.index') }}">
-															<span data-hover="Blogs">Blogs</span>
+														<a class="a-top-link" href="{{ route('blog.index', ['locale' => app()->getLocale()]) }}">
+															<span data-hover="Blogs">{{ __('messages.blogs') }}</span>
 														</a>
 													</li>       
                                                     <li class="li-top-item ">
-                                                        <a class="a-top-link" href="{{ route('contact.index') }}">
-                                                            <span>Contact</span>
+                                                        <a class="a-top-link" href="{{ route('contact.index', ['locale' => app()->getLocale()]) }}">
+                                                            <span>{{ __('messages.contact') }}</span>
                                                         </a>
-                                                    </li>                        						
+                                                    </li>  
+                                                    <script>
+                                                        // Définissez vos traductions dans une variable JavaScript
+                                                        window.translations = {
+                                                            moreText: '{{ __('messages.more') }}'
+                                                        };
+                                                    </script>                      						
 					                            </ul>
                     	                    </div>
 		                                </div>
@@ -215,56 +160,40 @@
                                             </div>
                                         </li>
 					                    <li class="account-nav dropdown header_user_info">
-                                            <a href="{{ route('account.index') }}" title="my Account" class="dropdown-toggle" data-toggle="dropdown"><i class="icofont-user-alt-7"></i>
+                                            <a href="{{ route('account.index', ['locale' => app()->getLocale()]) }}" title="my Account" class="dropdown-toggle" data-toggle="dropdown"><i class="icofont-user-alt-7"></i>
                                                 <span class="tbuserheading">my Account</span><i class="icofont-simple-down"></i>
                                             </a>
 						                    <ul class="dropdown-menu dropdown-menu-right account-link-toggle">
-                                                @if(!Auth::guard('client')->check())
 												<li>
-                                                    <a data-key="login" href="{{ route('client.login') }}"><i class="icofont-lock"></i> Login</a>
+                                                    <a href="{{ route('client.login', ['locale' => app()->getLocale()]) }}"><i class="icofont-lock"></i> {{ __('messages.login') }}</a>
                                                 </li>
 							                    <li>
-                                                    <a data-key="register" href="{{ route('client.register') }}"><i class="icofont-user-alt-7"></i> 
-                                                        Register
+                                                    <a href="#" id="wishlist-total" title="Wish List (0)"><i class="icofont-heart"></i> 
+                                                        <span class="hidden-sm hidden-md">Wish List (0)</span>
                                                     </a>
                                                 </li>
-                                                @else
-                                                <li>
-                                                    <a href="{{ route('ordersHistory.index') }}"><i class="icofont-calendar"></i> 
-                                                        Order History
+							                    <li>
+                                                    <a href="{{ route('client.register', ['locale' => app()->getLocale()]) }}"><i class="icofont-user-alt-7"></i> 
+                                                    {{ __('messages.register') }}
                                                     </a>
                                                 </li>
-                                                <li>
-                                                    <a href="{{ route('account.index') }}"><i class="icofont-user-alt-7"></i> 
-                                                        my Account
-                                                    </a>
-                                                </li>
-                                                <li>
-                                                    <form id="logout-form" action="{{ route('client.logout') }}" method="POST" style="display: none;">
-                                                        @csrf
-                                                    </form>
-                                                    <a href="{{ route('client.logout') }}" onclick="event.preventDefault(); document.getElementById('logout-form').submit();">
-                                                    <i class="icofont-lock"></i>
-                                                        Logout
+                                                @if(session('client'))
+							                    <li>
+                                                    <a href="{{ route('client.logout', ['locale' => app()->getLocale()]) }}"><i class="icofont-user-alt-7"></i> 
+                                                    {{ __('messages.logout') }}
                                                     </a>
                                                 </li>
                                                 @endif
-							                    
 							                    <li class="tblanguage clearfix">
-                                                    <div class="js">
-                                                        <div class="language-picker js-language-picker" data-trigger-class="btn btn--subtle">
-                                                            <form action="" class="language-picker__form">
-                                                                <label for="language-picker-select">Select your language</label>
-                                                                <div class="custom-select-wrapper">
-                                                                    <select name="language-picker-select" id="language-picker-select" >
-                                                                        <option lang="fr" value="fr-fr" data-image="catalog/language/fr-fr/fr-fr.png" selected data-key="header.selectfr">French</option>
-                                                                        <option lang="en" value="en-gb" data-image="catalog/language/en-gb/en-gb.png" data-key="header.selecten">English</option>
-                                                                        <!-- Ajoutez d'autres options de langue ici si nécessaire -->
-                                                                    </select>
-                                                                </div>
-                                                            </form>
-                                                        </div>
-                                                    </div>	
+                                                    <div class="btn-group shadow-0">
+                                                    <button type="button" class="btn btn-link dropdown-toggle" data-mdb-dropdown-init data-mdb-ripple-init aria-expanded="false">
+                                                        Action
+                                                    </button>
+                                                    <ul class="dropdown-menu">
+                                                        <li><a class="dropdown-item" href="{{ route('app.index', ['locale' => 'fr']) }}">{{ __('messages.langfr') }}</a></li>
+                                                        <li><a class="dropdown-item" href="{{ route('app.index', ['locale' => 'en']) }}">{{ __('messages.langen') }}</a></li>
+                                                    </ul>
+                                                    </div>
                                                 </li>
 											</ul>
 					                    </li> 
@@ -314,7 +243,7 @@
                                                                         </tr>
                                                                     </table>
                                                                     <p class="text-right">
-                                                                        <a href="{{ route('cart') }}"><strong>View Cart</strong></a>
+                                                                        <a href="{{ route('cart', ['locale' => app()->getLocale()]) }}"><strong>View Cart</strong></a>
                                                                         <a href="#"><strong>Checkout</strong></a>
                                                                     </p>
                                                                 </div>

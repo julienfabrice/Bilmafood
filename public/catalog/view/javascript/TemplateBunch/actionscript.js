@@ -2,7 +2,7 @@ $(document).ready(function() {
 
 /* ---------------- start TemplateBunch link more menu ----------------------*/
     var max_link = 4;
-    const moreText = translations['en-gb']['more_text'];
+    const moreText = window.translations.moreText;
     var items = $('.main-category-list .tb-menu > ul.ul-top-items > li.li-top-item');
     var surplus = items.slice(max_link, items.length);
     surplus.wrapAll('<li class="dropdown more-menu li-top-item"><div class="dropdown-menu"><ul class="list-unstyled childs_1 single-dropdown-menu"></div>');

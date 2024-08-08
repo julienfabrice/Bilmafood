@@ -9,6 +9,7 @@ return [
     'register'  =>  'Register',
     'home'      =>  'Home',
     'society'   =>  'Our society',
+    'quality'   =>  'Quality',
     'jam'       =>  'Jam',
     'more'      =>  'More',
     'blogs'     =>  'Blogs',

@@ -17,8 +17,8 @@
   <title>Tropical</title>
   <base />
   <link rel="stylesheet" href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/lang.css') }}">
-  <script src="catalog/view/javascript/jquery/jquery-2.1.1.min.js"></script>
-  <script src="catalog/view/javascript/bootstrap/js/bootstrap.min.js"></script>
+  <script src="{{ asset('catalog/view/javascript/jquery/jquery-2.1.1.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/bootstrap/js/bootstrap.min.js') }}"></script>
 
   <link href="https://fonts.googleapis.com/css2?family=Playball&amp;family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&amp;display=swap" rel="stylesheet">
@@ -29,53 +29,53 @@
 
   <!-- default CSS START -->
 
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/icofont.min.css" rel="stylesheet">
-  <link href="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.css" rel="stylesheet" media="screen" />
-  <link href="catalog/view/javascript/jquery/owl-carousel/owl.theme.default.min.css" rel="stylesheet" media="screen" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/bootstrap.min.css" rel="stylesheet" media="screen" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/animate.css" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/icofont.min.css') }}" rel="stylesheet">
+  <link href="{{ asset('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.css') }}" rel="stylesheet" media="screen" />
+  <link href="{{ asset('catalog/view/javascript/jquery/owl-carousel/owl.theme.default.min.css') }}" rel="stylesheet" media="screen" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/bootstrap.min.css') }}" rel="stylesheet" media="screen" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/animate.css') }}" rel="stylesheet" type="text/css" />
 
   <!-- default CSS END -->
 
   <!-- TemplateBunch Custom CSS Start -->
 
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/stylesheet.css" rel="stylesheet">
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/stylesheet.css') }}" rel="stylesheet">
 
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-blog.css" rel="stylesheet">
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-category-feature.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-countdown.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-home.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-innerpage.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-lightbox.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-menu.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-newsletter.css" rel="stylesheet" type="text/css" />
-  <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-product.css" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-blog.css') }}" rel="stylesheet">
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-category-feature.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-countdown.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-home.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-innerpage.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-lightbox.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-menu.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-newsletter.css') }}" rel="stylesheet" type="text/css" />
+  <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-product.css') }}" rel="stylesheet" type="text/css" />
 
   <!-- TemplateBunch Custom CSS End -->
 
 
-  <link href="catalog/view/javascript/jquery/swiper/css/swiper.min.css" type="text/css" rel="stylesheet" media="screen" />
-  <link href="catalog/view/javascript/jquery/swiper/css/opencart.css" type="text/css" rel="stylesheet" media="screen" />
+  <link href="{{ asset('catalog/view/javascript/jquery/swiper/css/swiper.min.css') }}" type="text/css" rel="stylesheet" media="screen" />
+  <link href="{{ asset('catalog/view/javascript/jquery/swiper/css/opencart.css') }}" type="text/css" rel="stylesheet" media="screen" />
 
-  <script src="catalog/view/javascript/common.js"></script>
+  <script src="{{ asset('catalog/view/javascript/common.js') }}"></script>
 
 
   <!-- default JS START -->
-  <script src="catalog/view/javascript/TemplateBunch/default/inview.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/parallex.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/theia-sticky-sidebar.min.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/lightbox-2.6.min.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/waypoints.min.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/wow.min.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/bootstrap-notify.min.js"></script>
-  <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/inview.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/parallex.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/theia-sticky-sidebar.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/lightbox-2.6.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/waypoints.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/wow.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/bootstrap-notify.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js') }}"></script>
   <!-- default JS End -->
 
   <!-- TemplateBunch custom JS START -->
-  <script src="catalog/view/javascript/TemplateBunch/actionscript.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/menu.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/tb_countdown.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/tb_owl.js"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/actionscript.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/menu.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/tb_countdown.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/tb_owl.js') }}"></script>
   <!-- <script src="catalog/view/javascript/TemplateBunch/tb_quickview.js"></script> -->
   <!-- TemplateBunch custom JS END -->
 
@@ -83,14 +83,11 @@
     new WOW().init();
   </script>
 
-
-  <link href="index33b9.html?route=product/category&amp;path=81" rel="canonical" />
-  <link href="indexd17f.html?route=product/category&amp;path=81&amp;page=2" rel="next" />
   <link href="image/catalog/cart.png" rel="icon" />
 
-  <script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/jquery.bpopup.min.js"></script>
-  <script src="catalog/view/javascript/TemplateBunch/default/jquery.cookie.js"></script>
+  <script src="{{ asset('catalog/view/javascript/jquery/swiper/js/swiper.jquery.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/jquery.bpopup.min.js') }}"></script>
+  <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/jquery.cookie.js') }}"></script>
 
 </head>
 
@@ -104,7 +101,7 @@
     <div id="product-category" class="container product-category">
       <ul class="breadcrumb">
         <li>
-          <a href="{{ route('app.index') }}">
+          <a href="{{ route('app.index', ['locale' => app()->getLocale()]) }}">
             <i class="icofont-home"></i>
           </a>
         </li>
@@ -119,22 +116,6 @@
               <div class="panel-heading">Categories</div>
               
             </div>
-            <div class="swiper-viewport">
-              <div id="banner0" class="swiper-container">
-                <div class="swiper-wrapper">
-                  <div class="swiper-slide">
-                    <a href="#URL">
-                      <img src="image/cache/catalog/demo/banners/left-banner-253x450.jpg" alt="Left Banner" class="img-responsive" />
-                      <div class="left-description">
-                        <div class="tb-left-title"> New Collection </div>
-                        <div class="tb-left-desc"> For the Online Order </div>
-                        <div class="tb-left-button"><button>Shop Now</button></div>
-                      </div>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
             <script>
               <!--
               $('#banner0').swiper({
@@ -144,190 +125,6 @@
               });
               -->
             </script>
-            <div class="featured-carousel products-list">
-              <div class="box-heading">
-                <h3>Featured</h3>
-              </div>
-              <div class="featured-items products-carousel row">
-
-                <!-- <div class='single-column'>
-                  <div class="product-layouts">
-                    <div class="product-thumb transition">
-                      <div class="image">
-                        <a href="indexb8ca.html?route=product/product&amp;product_id=43">
-                          <img class="image_thumb" src="image/cache/catalog/demo/product/11-70x92.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
-                          <img class="image_thumb_swap" src="image/cache/catalog/demo/product/11-02-70x92.jpg" title="Natural Jam Bitter Orange" alt="Natural Jam Bitter Orange" />
-                        </a>
-                        <div class="button-group">
-                          <button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('43')">
-
-                            <i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-                            </span><span class="loading"><i class="icofont-refresh"></i></span></button>
-                          <button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('43');"><i class="icofont-heart"></i>
-                            <span title="Add to Wish List">Add to Wish List</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-compare" title="Add to compare" onclick="compare.add('43');"><i class="icofont-signal"></i>
-                            <span title="Add to compare">Add to compare</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexb8ca.html?route=product/product&amp;product_id=43')"><i class="icofont-eye-alt"></i>
-                            <span title="Quick view">Quick view</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-
-                        </div>
-                      </div>
-                      <div class="thumb-description">
-                        <div class="caption">
-                          <h4><a href="indexb8ca.html?route=product/product&amp;product_id=43">Natural Jam Bitter Orange</a></h4>
-                          <div class="price">
-                            $602.00
-
-                            <span class="price-tax">Ex Tax: $500.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="product-layouts">
-                    <div class="product-thumb transition">
-                      <div class="image">
-                        <a href="index9144.html?route=product/product&amp;product_id=40">
-                          <img class="image_thumb" src="image/cache/catalog/demo/product/06-70x92.jpg" title="Hero Black Currant Jam" alt="Hero Black Currant Jam" />
-                          <img class="image_thumb_swap" src="image/cache/catalog/demo/product/06-02-70x92.jpg" title="Hero Black Currant Jam" alt="Hero Black Currant Jam" />
-                        </a>
-                        <div class="button-group">
-                          <button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('40')">
-
-                            <i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-                            </span><span class="loading"><i class="icofont-refresh"></i></span></button>
-                          <button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('40');"><i class="icofont-heart"></i>
-                            <span title="Add to Wish List">Add to Wish List</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-compare" title="Add to compare" onclick="compare.add('40');"><i class="icofont-signal"></i>
-                            <span title="Add to compare">Add to compare</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('index9144.html?route=product/product&amp;product_id=40')"><i class="icofont-eye-alt"></i>
-                            <span title="Quick view">Quick view</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-
-                        </div>
-                      </div>
-                      <div class="thumb-description">
-                        <div class="caption">
-                          <h4><a href="index9144.html?route=product/product&amp;product_id=40">Hero Black Currant Jam</a></h4>
-                          <div class="price">
-                            $123.20
-
-                            <span class="price-tax">Ex Tax: $101.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                  <div class="product-layouts">
-                    <div class="product-thumb transition">
-                      <div class="image">
-                        <a href="indexbb02.html?route=product/product&amp;product_id=42">
-                          <img class="image_thumb" src="image/cache/catalog/demo/product/01-70x92.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" />
-                          <img class="image_thumb_swap" src="image/cache/catalog/demo/product/01-02-70x92.jpg" title="Kissan Pineapple Jam" alt="Kissan Pineapple Jam" />
-                        </a>
-                        <div class="sale-icon">Sale</div>
-                        <span class="percent">-10%</span>
-                        <div class="button-group">
-                          <button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('42')">
-
-                            <i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-                            </span><span class="loading"><i class="icofont-refresh"></i></span></button>
-                          <button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('42');"><i class="icofont-heart"></i>
-                            <span title="Add to Wish List">Add to Wish List</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-compare" title="Add to compare" onclick="compare.add('42');"><i class="icofont-signal"></i>
-                            <span title="Add to compare">Add to compare</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexbb02.html?route=product/product&amp;product_id=42')"><i class="icofont-eye-alt"></i>
-                            <span title="Quick view">Quick view</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-
-                        </div>
-                      </div>
-                      <div class="thumb-description">
-                        <div class="caption">
-                          <div class="rating">
-                            <span class="fa fa-stack"><i class="icofont-star checked"></i></span>
-                            <span class="fa fa-stack"><i class="icofont-star checked"></i></span>
-                            <span class="fa fa-stack"><i class="icofont-star checked"></i></span>
-                            <span class="fa fa-stack"><i class="icofont-star checked"></i></span>
-                            <span class="fa fa-stack"><i class="icofont-star"></i></span>
-                          </div>
-                          <h4><a href="indexbb02.html?route=product/product&amp;product_id=42">Kissan Pineapple Jam</a></h4>
-                          <div class="price">
-                            <span class="price-new">$110.00</span>
-                            <span class="price-old">$122.00</span>
-
-                            <span class="price-tax">Ex Tax: $90.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-                <div class='single-column'>
-                  <div class="product-layouts">
-                    <div class="product-thumb transition">
-                      <div class="image">
-                        <a href="indexf073.html?route=product/product&amp;product_id=30">
-                          <img class="image_thumb" src="image/cache/catalog/demo/product/02-70x92.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" />
-                          <img class="image_thumb_swap" src="image/cache/catalog/demo/product/02-02-70x92.jpg" title="Jam - Mango 1 kg Jar" alt="Jam - Mango 1 kg Jar" />
-                        </a>
-                        <div class="sale-icon">Sale</div>
-                        <span class="percent">-20%</span>
-                        <div class="button-group">
-                          <button class="btn-cart " type="button" title="Add to Cart" onclick="cart.add('30')">
-
-                            <i class="icofont-shopping-cart"></i><span class="hidden-xs hidden-sm hidden-md">Add to Cart
-                            </span><span class="loading"><i class="icofont-refresh"></i></span></button>
-                          <button class="btn-wishlist" title="Add to Wish List" onclick="wishlist.add('30');"><i class="icofont-heart"></i>
-                            <span title="Add to Wish List">Add to Wish List</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-compare" title="Add to compare" onclick="compare.add('30');"><i class="icofont-signal"></i>
-                            <span title="Add to compare">Add to compare</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-                          <button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('indexf073.html?route=product/product&amp;product_id=30')"><i class="icofont-eye-alt"></i>
-                            <span title="Quick view">Quick view</span>
-                            <span class="loading"><i class="icofont-refresh"></i></span>
-                          </button>
-
-                        </div>
-                      </div>
-                      <div class="thumb-description">
-                        <div class="caption">
-                          <h4><a href="indexf073.html?route=product/product&amp;product_id=30">Jam - Mango 1 kg Jar</a></h4>
-                          <div class="price">
-                            <span class="price-new">$98.00</span>
-                            <span class="price-old">$122.00</span>
-
-                            <span class="price-tax">Ex Tax: $80.00</span>
-                          </div>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-
-
-                </div> -->
-
-              </div>
-            </div>
 
 
             <script type="text/javascript">
@@ -475,15 +272,10 @@
 						<div class="product-layouts product-list col-xs-12">
 							<div class="product-thumb row">
 								<div class="image">
-									<a href="{{ route('product.productDetail', $product->id) }}">
-										<img class="image_thumb" src="{{ Storage::url($product->main_image) }}" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
-										<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="Bhuira Strawberry Jam" alt="Bhuira Strawberry Jam" />
+									<a href="{{ route('product.productDetail', ['product' => $product->id,'locale' => app()->getLocale()]) }}">
+										<img class="image_thumb" src="{{ Storage::url($product->main_image) }}" title="{{ $product->name }}" alt="{{ $product->name }}" />
+										<img class="image_thumb_swap" src="image/cache/catalog/demo/product/03-02-330x432.jpg" title="{{ $product->name }}" alt="{{ $product->name }}" />
 									</a>
-									<!-- <div class="sale-icon">Sale</div>
-								<span class="percent">-10%</span>                -->
-									<!-- <div class="product-countdown">
-									<div id="countdown4_47" class="item-countdown" data-date="2024-12-31"></div>
-								</div> -->
 									<div class="button-group">
 										<button class="btn-cart add_card" data-product-id="{{ $product->id }}" type="button" title="Add to Cart">
 											<i class="icofont-shopping-cart"></i>
@@ -496,10 +288,6 @@
 										</button>
 										<button class="btn-wishlist " title="Add to Wish List" onclick="wishlist.add('47');"><i class="icofont-heart"></i>
 											<span title="Add to Wish List">Add to Wish List</span>
-											<span class="loading"><i class="icofont-refresh"></i></span>
-										</button>
-										<button class="btn-compare" title="Add to compare" onclick="compare.add('47');"><i class="icofont-signal"></i>
-											<span title="Add to compare">Add to compare</span>
 											<span class="loading"><i class="icofont-refresh"></i></span>
 										</button>
 										<button class="btn-quickview" type="button" title="Quick view" onclick="tb_quickview.ajaxView('#')"><i class="icofont-eye-alt"></i>
@@ -553,188 +341,7 @@
     </div>
   </div>
   </div>
-  <footer id="tb-footer">
-    <div class="footer-top-cms">
-      <div class="container">
-        <aside id="footer-top">
-          <div id="TB-newletter-subscribe" class="newletter-subscribe wow fadeInRight" data-wow-delay="0.3s">
-            <div id="newletter-boxes">
-              <div id="dialog-normal" class="window">
-                <div class="box">
-                  <div class="row align-items-center">
-                    <div class="col-lg-6">
-                      <div class="newletter-title">
-                        <h2 class="tb-title">Subscribe Our Newsletter</h2>
-                        <span class="newletter-desc">Get 20% off first order!</span>
-                      </div>
-                    </div>
-                    <div class="col-lg-6">
-                      <div class="box-content newleter-content">
-                        <div id="form_subscribe">
-                          <form name="subscribe" id="subscribe">
-                            <input type="text" placeholder="Your email address" value="" name="subscribe_email" id="subscribe_email">
-                            <input type="hidden" value="" name="subscribe_name" id="subscribe_name" />
-                            <a class="button btn btn-primary" onclick="email_subscribe()"><span>Subscribe</span><i class="icofont-location-arrow"></i></a>
-
-                          </form>
-                        </div><!-- /#form_subscribe -->
-                        <div id="notification-normal"></div>
-                      </div>
-                    </div><!-- /.box-content -->
-                  </div>
-                </div>
-              </div>
-            </div>
-
-            <script>
-              function email_subscribe() {
-                $.ajax({
-                  type: 'post',
-                  url: 'index.php?route=extension/module/tbnewslettersubscribe/subscribe',
-                  dataType: 'html',
-                  data: $("#subscribe").serialize(),
-                  success: function(html) {
-                    try {
-
-                      eval(html);
-
-                    } catch (e) {}
-
-                  }
-                });
-
-
-              }
-
-              function email_unsubscribe() {
-                $.ajax({
-                  type: 'post',
-                  url: 'index.php?route=extension/module/tbnewslettersubscribe/unsubscribe',
-                  dataType: 'html',
-                  data: $("#subscribe").serialize(),
-                  success: function(html) {
-                    try {
-
-                      eval(html);
-
-                    } catch (e) {}
-                  }
-                });
-                $('html, body').delay(1500).animate({
-                  scrollTop: 0
-                }, 'slow');
-
-              }
-            </script>
-            <script>
-              $(document).ready(function() {
-                $('#subscribe_email').keypress(function(e) {
-                  if (e.which == 13) {
-                    e.preventDefault();
-                    email_subscribe();
-                  }
-                  var name = $(this).val();
-                  $('#subscribe_name').val(name);
-                });
-                $('#subscribe_email').change(function() {
-                  var name = $(this).val();
-                  $('#subscribe_name').val(name);
-                });
-
-              });
-            </script>
-          </div>
-        </aside>
-
-      </div>
-    </div>
-    <div class="container">
-      <div class="tb-comen-row wow fadeInLeft" data-wow-delay="0.3s">
-        <div class="row">
-          <div class="footer-left-cms col-lg-3">
-            <aside id="footer-left">
-              <div class="html-content">
-                <div class="box-content">
-                  <div id="TB-Footer-cms" class="links">
-                    <div class="tb-footer-logo">
-                      <a href="index9328.html?route=common/home">
-                        <img src="image/catalog/logo.png" alt="footer-logo">
-                      </a>
-                    </div>
-                    <div class="tb-footer-desc">I use Lorem ipsum text all day long and spend hours formatting it, so I set this site up to make my day.</div>
-                  </div>
-                </div>
-              </div>
-            </aside>
-          </div>
-          <div class="col-lg-7">
-            <div class="row">
-              <div class="col-lg-4">
-                <div class="footer-commen footer-my-account">
-                  <h5>My Account</h5>
-                  <ul class="list-unstyled">
-                    <li><a href="{{ route('account.index') }}">My Account</a></li>
-                    <li><a href="#">Order History</a></li>
-                    <li><a href="#">Wish List</a></li>
-                    <li><a href="#">Newsletter</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="footer-commen footer-information">
-                  <h5>Information</h5>
-                  <ul class="list-unstyled">
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Delivery Information</a></li>
-                    <li><a href="#">Privacy Policy</a></li>
-                    <li><a href="#">Terms &amp; Conditions</a></li>
-                  </ul>
-                </div>
-              </div>
-              <div class="col-lg-4">
-                <div class="footer-commen footer-Extras">
-                  <h5>Extras</h5>
-                  <ul class="list-unstyled">
-                    <li><a href="#">Brands</a></li>
-                    <li><a href="#">Gift Certificates</a></li>
-                    <li><a href="#">Affiliate</a></li>
-                    <li><a href="#">Specials</a></li>
-                  </ul>
-                </div>
-              </div>
-            </div>
-          </div>
-          <div class="footer-column footer-right-cms col-lg-2">
-            <aside id="footer-right">
-              <div class="html-content">
-                <div class="box-content">
-                  <div id="Tb-contact-us">
-                    <div class="tb-contact-us footer-commen">
-                      <h5>Contact Us</h5>
-                      <ul class="tb-contact-us-wrapper list-unstyled">
-                        <div class="tb-contact-list">
-                          <i class="icofont-location-pin"></i>
-                          <p>A20 Green Hill Road, <br>Fayetteville, California.</p>
-                        </div>
-                        <div class="tb-contact-list">
-                          <i class="icofont-ui-call"></i>
-                          <p><a href="tel:+1 209-223-2635">+1 209-223-2635</a></p>
-                        </div>
-                        <div class="tb-contact-list">
-                          <i class="icofont-ui-message"></i>
-                          <p><a href="#">info@admin.com</a></p>
-                        </div>
-                      </ul>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </aside>
-          </div>
-        </div>
-      </div>
-    </div>
-  </footer>
+  @include('part.footer')
   </div>
 
   <script>
@@ -840,6 +447,7 @@
 		});
 
 	</script>
+
 	<script>
 		$(document).ready(function() {
 			// Update quantity
@@ -941,7 +549,7 @@
 					cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
 					cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
 					cartHtml += '</tr></table>';
-					cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
+					cartHtml += '<p class="text-right"><a href="{{ route('cart', ['locale' => app()->getLocale()]) }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
 					cartHtml += '</div></li>';
 				}
 
@@ -951,10 +559,6 @@
 		});
 
 	</script>
-
-
-  <script src="catalog/language/js/language.js"></script>
-  <script src="catalog/language/js/transcription.js"></script>
 
 </body>
 

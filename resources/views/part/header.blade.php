@@ -6,7 +6,7 @@
 		                    <div class="header-left">
 			                    <div id="logo">
                                     <a href="{{ route('app.index', ['locale' => app()->getLocale()]) }}">
-                                        <img src="image/catalog/logo.png" title="Address" alt="Address" class="img-responsive" />
+                                        <img src="{{ asset('image/catalog/logo.png') }}" title="Address" alt="Address" class="img-responsive" />
                                     </a>			
                                 </div>
 		                    </div>

@@ -41,41 +41,41 @@
 
     <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/stylesheet.css') }}" rel="stylesheet">
 
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-blog.css" rel="stylesheet">
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-category-feature.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-countdown.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-home.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-innerpage.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-lightbox.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-menu.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-newsletter.css" rel="stylesheet" type="text/css" />
-    <link href="catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-product.css" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-blog.css') }}" rel="stylesheet">
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-category-feature.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-countdown.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-home.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-innerpage.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-lightbox.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-menu.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-newsletter.css') }}" rel="stylesheet" type="text/css" />
+    <link href="{{ asset('catalog/view/theme/OPCTB49_01/stylesheet/TemplateBunch/custom/tb-product.css') }}" rel="stylesheet" type="text/css" />
 
     <!-- TemplateBunch Custom CSS End -->
 
 
-    <link href="catalog/view/javascript/jquery/swiper/css/swiper.min.css" type="text/css" rel="stylesheet" media="screen" />
-    <link href="catalog/view/javascript/jquery/swiper/css/opencart.css" type="text/css" rel="stylesheet" media="screen" />
+    <link href="{{ asset('catalog/view/javascript/jquery/swiper/css/swiper.min.css') }}" type="text/css" rel="stylesheet" media="screen" />
+    <link href="{{ asset('catalog/view/javascript/jquery/swiper/css/opencart.css') }}" type="text/css" rel="stylesheet" media="screen" />
 
-    <script src="catalog/view/javascript/common.js"></script>
+    <script src="{{ asset('catalog/view/javascript/common.js') }}"></script>
 
 
     <!-- default JS START -->
-    <script src="catalog/view/javascript/TemplateBunch/default/inview.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/parallex.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/theia-sticky-sidebar.min.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/lightbox-2.6.min.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/waypoints.min.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/wow.min.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/bootstrap-notify.min.js"></script>
-    <script src="catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/inview.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/parallex.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/theia-sticky-sidebar.min.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/lightbox-2.6.min.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/waypoints.min.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/wow.min.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/bootstrap-notify.min.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/jquery/owl-carousel/owl.carousel.min.js') }}"></script>
     <!-- default JS End -->
 
     <!-- TemplateBunch custom JS START -->
-    <script src="catalog/view/javascript/TemplateBunch/actionscript.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/menu.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/tb_countdown.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/tb_owl.js"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/actionscript.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/menu.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/tb_countdown.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/tb_owl.js') }}"></script>
     <!-- <script src="catalog/view/javascript/TemplateBunch/tb_quickview.js"></script> -->
     <!-- TemplateBunch custom JS END -->
 
@@ -88,9 +88,9 @@
     <link href="#" rel="next" />
     <link href="image/catalog/cart.png" rel="icon" />
 
-    <script src="catalog/view/javascript/jquery/swiper/js/swiper.jquery.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/jquery.bpopup.min.js"></script>
-    <script src="catalog/view/javascript/TemplateBunch/default/jquery.cookie.js"></script>
+    <script src="{{ asset('catalog/view/javascript/jquery/swiper/js/swiper.jquery.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/jquery.bpopup.min.js') }}"></script>
+    <script src="{{ asset('catalog/view/javascript/TemplateBunch/default/jquery.cookie.js') }}"></script>
 
 </head>
 
@@ -104,7 +104,7 @@
         <div id="product-category" class="container product-category">
             <ul class="breadcrumb">
                 <li>
-                    <a href="{{ route('app.index') }}">
+                    <a href="{{ route('app.index', ['locale' => app()->getLocale()]) }}">
                         <i class="icofont-home"></i>
                     </a>
                 </li>
@@ -239,14 +239,14 @@
                         </div>
                     </div>
                     <div class="buttons clearfix">
-                        <div class="pull-left"><a href="#" class="btn btn-default cnt">Continue Shopping</a></div>
+                        <div class="pull-left"><a href="{{ route('app.index', ['locale' => app()->getLocale()]) }}" class="btn btn-default cnt">Continue Shopping</a></div>
                         <div class="pull-right"><a href="#" class="btn btn-primary checkout">Checkout</a></div>
                     </div>
                     @else
                     <p>Your shopping cart is empty!</p>
                     <div class="buttons clearfix">
                         <div class="pull-right">
-                            <a href="{{ route('app.index') }}" class="btn btn-primary">Continue</a>
+                            <a href="{{ route('app.index', ['locale' => app()->getLocale()]) }}" class="btn btn-primary">Continue</a>
                         </div>
                     </div>
                     @endif
@@ -317,7 +317,7 @@
                                 <div class="footer-commen footer-my-account">
                                     <h5>My Account</h5>
                                     <ul class="list-unstyled">
-                                        <li><a href="{{ route('account.index') }}">My Account</a></li>
+                                        <li><a href="{{ route('account.index', ['locale' => app()->getLocale()]) }}">My Account</a></li>
                                         <li><a href="#">Order History</a></li>
                                         <li><a href="#">Wish List</a></li>
                                         <li><a href="#">Newsletter</a></li>
@@ -482,7 +482,7 @@
                     cartHtml += '<tr><td class="text-right"><strong>Total</strong></td>';
                     cartHtml += '<td class="text-right price-total">cfa ' + total + '</td>';
                     cartHtml += '</tr></table>';
-                    cartHtml += '<p class="text-right"><a href="{{ route('cart') }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
+                    cartHtml += '<p class="text-right"><a href="{{ route('cart', ['locale' => app()->getLocale()]) }}"><strong>View Cart</strong></a><a href="#"><strong>Checkout</strong></a></p>';
                     cartHtml += '</div></li>';
                 }
 

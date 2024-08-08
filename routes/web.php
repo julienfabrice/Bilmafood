@@ -77,12 +77,12 @@ Route::group(['prefix' => '{locale}', 'middleware' => 'locale'], function () {
         Route::put('/adminbilma/category/{categorie}/edit', [AdminCategoryController::class, 'update'])->name('admin.updatecategory');
         Route::delete('/adminbilma/category/{categorie}', [AdminCategoryController::class, 'destroy'])->name('admin.destroycategory');
     });
-
-    // Cart Routes
+    
     Route::get('/cart', [CartController::class, 'index'])->name('cart');
-    Route::post('/cart/add/{id}', [CartController::class, 'addToCart'])->name('cart.add');
-    Route::post('/cart/remove/{id}', [CartController::class, 'removeFromCart'])->name('cart.remove');
-    Route::post('/cart/update/{id}', [CartController::class, 'updateCart'])->name('cart.update');
-
     Route::get('/category/products/{id}', [AppController::class, 'getProductsByCategory']);
 });
+
+// Cart Routes
+Route::post('/cart/add/{id}', [CartController::class, 'addToCart'])->name('cart.add');
+Route::post('/cart/remove/{id}', [CartController::class, 'removeFromCart'])->name('cart.remove');
+Route::post('/cart/update/{id}', [CartController::class, 'updateCart'])->name('cart.update');

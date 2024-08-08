@@ -6,6 +6,8 @@ namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
 use App\Models\Product;
+use Illuminate\Support\Facades\Log;
+
 
 class CartController extends Controller
 {
@@ -16,28 +18,39 @@ class CartController extends Controller
     }
     
     public function addToCart($id)
-    {
-        $product = Product::findOrFail($id);
-        $cart = session()->get('cart', []);
+{
+    // Debugging line
+    Log::info('Adding to cart, product ID: ' . $id);
 
-        if (isset($cart[$id])) {
-            $cart[$id]['quantity']++;
-        } else {
-            $cart[$id] = [
-                'name' => $product->name,
-                'quantity' => 1,
-                'price' => $product->price,
-                'main_image' => $product->main_image
-            ];
-        }
+    $product = Product::find($id);
 
-        session()->put('cart', $cart);
-
-        return response()->json([
-            'success' => 'Produit ajouté au panier avec succès',
-            'cart' => $cart
-        ]);
+    if (!$product) {
+        // Debugging line
+        Log::error('Product not found, ID: ' . $id);
+        return response()->json(['error' => 'Product not found'], 404);
     }
+
+    $cart = session()->get('cart', []);
+
+    if (isset($cart[$id])) {
+        $cart[$id]['quantity']++;
+    } else {
+        $cart[$id] = [
+            'name' => $product->name,
+            'quantity' => 1,
+            'price' => $product->price,
+            'main_image' => $product->main_image
+        ];
+    }
+
+    session()->put('cart', $cart);
+
+    return response()->json([
+        'success' => 'Produit ajouté au panier avec succès',
+        'cart' => $cart
+    ]);
+}
+
 
     public function removeFromCart($id)
     {
